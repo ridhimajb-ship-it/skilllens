@@ -1,10 +1,6 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "services": {
-    "analysis": {
-      "root": "analysis",
-      "runtime": "python"
-    },
     "client": {
       "root": "client",
       "framework": "vite"
