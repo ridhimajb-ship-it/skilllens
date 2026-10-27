@@ -1,0 +1,31 @@
+{
+  "_note": "Shared fixture: the Node.js scorer (server/src/services/scoring.js) and the Python scorer (analysis/skilllens_pipeline/rank.py) must both produce `expected` from `input`.",
+  "input": {
+    "weights": { "industry": 0.5, "professional": 0.35, "beginner": 0.15 },
+    "roles": [
+      { "id": 1, "hypothesis": { "10": "core", "11": "secondary", "14": "secondary" } },
+      { "id": 2, "hypothesis": { "10": "core" } },
+      { "id": 3, "hypothesis": { "20": "core" } }
+    ],
+    "postings": [
+      { "roleId": 1, "skillIds": [10, 11] },
+      { "roleId": 1, "skillIds": [10] },
+      { "roleId": 1, "skillIds": [10, 12] },
+      { "roleId": 1, "skillIds": [12, 12] },
+      { "roleId": 2, "skillIds": [12] },
+      { "roleId": 2, "skillIds": [10, 12] }
+    ],
+    "responses": [
+      { "roleId": 1, "uses": [10, 11], "beginner": [10], "overemphasized": [11] },
+      { "roleId": 1, "uses": [10], "beginner": [10, 12], "overemphasized": [] }
+    ]
+  },
+  "expected": [
+    { "roleId": 1, "skillId": 10, "score": 87.5, "tier": "Very High", "rank": 1, "specificity": 0.6 },
+    { "roleId": 1, "skillId": 12, "score": 32.5, "tier": "Low", "rank": 2, "specificity": 0.333 },
+    { "roleId": 1, "skillId": 11, "score": 30, "tier": "Low", "rank": 3, "specificity": 1 },
+    { "roleId": 1, "skillId": 14, "score": 0, "tier": "Minimal", "rank": 4, "specificity": null },
+    { "roleId": 2, "skillId": 12, "score": 100, "tier": "Very High", "rank": 1, "specificity": 0.667 },
+    { "roleId": 2, "skillId": 10, "score": 50, "tier": "Moderate", "rank": 2, "specificity": 0.4 }
+  ]
+}

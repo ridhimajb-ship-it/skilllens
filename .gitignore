@@ -1,0 +1,10 @@
+node_modules/
+.env
+server/.data/
+client/dist/
+analysis/output/*
+!analysis/output/.gitkeep
+__pycache__/
+.pytest_cache/
+*.log
+coverage/

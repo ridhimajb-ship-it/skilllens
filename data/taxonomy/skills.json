@@ -1,0 +1,2161 @@
+{
+  "_note": "SkillLens canonical skill taxonomy. Each skill has a canonical name, aliases used for normalization, a category, a type and a short description. This file is shared by the Node.js server and the Python analysis pipeline. Aliases are matched case-insensitively unless listed in caseSensitiveAliases. Aliases in textExtractionStopAliases are too ambiguous for free-text descriptions (e.g. 'rest', 'node', 'less') and are only used when normalizing explicit skill lists.",
+  "categories": [
+    "Programming Languages",
+    "Web Development",
+    "Databases",
+    "Software Engineering",
+    "Cloud & Infrastructure",
+    "DevOps",
+    "Data & Analytics",
+    "Statistics & Math",
+    "Machine Learning & AI",
+    "Security",
+    "Mobile",
+    "Design",
+    "Product & Business",
+    "Soft Skills"
+  ],
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "General-purpose language used for backend services, automation, data analysis and ML.",
+      "aliases": [
+        "python 3",
+        "python3",
+        "python programming",
+        "python language",
+        "py"
+      ]
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Statically typed JVM language common in enterprise backends and Android.",
+      "aliases": [
+        "core java",
+        "java se",
+        "java 8",
+        "java 11",
+        "java 17",
+        "java programming"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "The language of the web browser; also used server-side via Node.js.",
+      "aliases": [
+        "js",
+        "javascript es6",
+        "es6",
+        "ecmascript",
+        "vanilla js",
+        "vanilla javascript"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Typed superset of JavaScript used in large front-end and Node.js codebases.",
+      "aliases": [
+        "ts"
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "C++",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Systems language used for performance-critical software.",
+      "aliases": [
+        "cpp",
+        "c plus plus",
+        "modern c++"
+      ]
+    },
+    {
+      "name": "C#",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Microsoft's object-oriented language used with .NET.",
+      "aliases": [
+        "c sharp",
+        "csharp"
+      ]
+    },
+    {
+      "name": "Kotlin",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Modern JVM language and the preferred language for Android.",
+      "aliases": [
+        "kotlin language"
+      ]
+    },
+    {
+      "name": "Swift",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Apple's language for iOS and macOS apps.",
+      "aliases": [
+        "swiftui",
+        "swift ui",
+        "swift programming"
+      ],
+      "caseSensitiveAliases": [
+        "Swift"
+      ]
+    },
+    {
+      "name": "R",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Language for statistical computing and data analysis.",
+      "aliases": [
+        "r programming",
+        "r language",
+        "rstudio",
+        "r studio",
+        "tidyverse"
+      ],
+      "caseSensitiveAliases": [
+        "R"
+      ]
+    },
+    {
+      "name": "Bash/Shell Scripting",
+      "category": "Programming Languages",
+      "type": "language",
+      "description": "Command-line scripting for automation on Unix-like systems.",
+      "aliases": [
+        "bash",
+        "shell scripting",
+        "shell script",
+        "shell scripts",
+        "unix shell",
+        "powershell",
+        "bash scripting"
+      ]
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "type": "language",
+      "description": "Language for querying and managing relational databases.",
+      "aliases": [
+        "structured query language",
+        "sql queries",
+        "t-sql",
+        "tsql",
+        "pl/sql",
+        "plsql",
+        "ansi sql"
+      ]
+    },
+    {
+      "name": "HTML",
+      "category": "Web Development",
+      "type": "language",
+      "description": "Markup language that structures web pages.",
+      "aliases": [
+        "html5",
+        "semantic html"
+      ]
+    },
+    {
+      "name": "CSS",
+      "category": "Web Development",
+      "type": "language",
+      "description": "Stylesheet language for the visual presentation of web pages.",
+      "aliases": [
+        "css3",
+        "flexbox",
+        "css grid",
+        "tailwind",
+        "tailwind css",
+        "tailwindcss"
+      ]
+    },
+    {
+      "name": "HTML/CSS",
+      "category": "Design",
+      "type": "concept",
+      "description": "Working knowledge of HTML and CSS sufficient to understand implementation constraints (design roles).",
+      "aliases": [
+        "html & css",
+        "html and css",
+        "basic html/css"
+      ]
+    },
+    {
+      "name": "React",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Component-based JavaScript library for building user interfaces.",
+      "aliases": [
+        "react.js",
+        "reactjs",
+        "react js",
+        "react hooks"
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "JavaScript runtime for building server-side applications.",
+      "aliases": [
+        "nodejs",
+        "node js",
+        "node"
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ],
+      "caseSensitiveAliases": [
+        "Node"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Minimal web framework for Node.js.",
+      "aliases": [
+        "express",
+        "expressjs",
+        "express js"
+      ],
+      "prerequisites": [
+        "Node.js"
+      ],
+      "caseSensitiveAliases": [
+        "Express"
+      ]
+    },
+    {
+      "name": "Angular",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "TypeScript-based front-end framework maintained by Google.",
+      "aliases": [
+        "angularjs",
+        "angular.js",
+        "angular 2+"
+      ],
+      "prerequisites": [
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Vue.js",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Progressive JavaScript framework for building user interfaces.",
+      "aliases": [
+        "vue",
+        "vuejs",
+        "vue js",
+        "vue 3",
+        "nuxt",
+        "nuxt.js"
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "React framework for server-rendered and full-stack web apps.",
+      "aliases": [
+        "nextjs",
+        "next js"
+      ],
+      "prerequisites": [
+        "React"
+      ]
+    },
+    {
+      "name": "Redux",
+      "category": "Web Development",
+      "type": "library",
+      "description": "State management library commonly used with React.",
+      "aliases": [
+        "redux toolkit",
+        "rtk",
+        "zustand",
+        "state management"
+      ],
+      "prerequisites": [
+        "React"
+      ]
+    },
+    {
+      "name": "GraphQL",
+      "category": "Web Development",
+      "type": "concept",
+      "description": "Query language and runtime for APIs.",
+      "aliases": [
+        "apollo graphql",
+        "graph ql",
+        "apollo"
+      ]
+    },
+    {
+      "name": "REST APIs",
+      "category": "Web Development",
+      "type": "concept",
+      "description": "Designing and consuming HTTP APIs following REST conventions.",
+      "aliases": [
+        "rest api",
+        "restful api",
+        "restful apis",
+        "restful services",
+        "rest",
+        "restful web services",
+        "web apis",
+        "apis"
+      ],
+      "caseSensitiveAliases": [
+        "REST"
+      ]
+    },
+    {
+      "name": "API Design",
+      "category": "Web Development",
+      "type": "concept",
+      "description": "Designing clear, versioned, secure and well-documented service interfaces.",
+      "aliases": [
+        "api development",
+        "openapi",
+        "swagger",
+        "api architecture"
+      ],
+      "prerequisites": [
+        "REST APIs"
+      ]
+    },
+    {
+      "name": "Responsive Design",
+      "category": "Web Development",
+      "type": "concept",
+      "description": "Building layouts that adapt to different screen sizes and devices.",
+      "aliases": [
+        "responsive web design",
+        "mobile-first design",
+        "mobile first",
+        "responsive layouts"
+      ]
+    },
+    {
+      "name": "Sass",
+      "category": "Web Development",
+      "type": "tool",
+      "description": "CSS preprocessors such as Sass/SCSS and Less.",
+      "aliases": [
+        "scss",
+        "sass/scss",
+        "less",
+        "css preprocessors",
+        "css preprocessor",
+        "sass/css preprocessors"
+      ],
+      "prerequisites": [
+        "CSS"
+      ],
+      "caseSensitiveAliases": [
+        "LESS",
+        "Less"
+      ]
+    },
+    {
+      "name": "Build Tools",
+      "category": "Web Development",
+      "type": "tool",
+      "description": "Front-end bundlers and build tooling (Webpack, Vite, Babel, esbuild).",
+      "aliases": [
+        "webpack",
+        "vite",
+        "babel",
+        "rollup",
+        "esbuild",
+        "parcel",
+        "webpack/build tools",
+        "module bundlers"
+      ]
+    },
+    {
+      "name": "Cross-browser Compatibility",
+      "category": "Web Development",
+      "type": "concept",
+      "description": "Ensuring web apps behave consistently across browsers.",
+      "aliases": [
+        "cross browser compatibility",
+        "browser compatibility",
+        "cross-browser testing"
+      ]
+    },
+    {
+      "name": "Spring Boot",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Java framework for building production-ready services.",
+      "aliases": [
+        "spring",
+        "spring framework",
+        "springboot",
+        "spring mvc"
+      ],
+      "prerequisites": [
+        "Java"
+      ],
+      "caseSensitiveAliases": [
+        "Spring"
+      ]
+    },
+    {
+      "name": "Django",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Batteries-included Python web framework.",
+      "aliases": [
+        "django rest framework",
+        "drf"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Flask",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Lightweight Python web framework.",
+      "aliases": [
+        "fastapi",
+        "fast api"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": ".NET",
+      "category": "Web Development",
+      "type": "framework",
+      "description": "Microsoft's development platform (ASP.NET, .NET Core).",
+      "aliases": [
+        "dotnet",
+        "dot net",
+        "asp.net",
+        ".net core",
+        "asp.net core",
+        ".net framework"
+      ],
+      "prerequisites": [
+        "C#"
+      ]
+    },
+    {
+      "name": "Microservices",
+      "category": "Software Engineering",
+      "type": "concept",
+      "description": "Architecting systems as independently deployable services.",
+      "aliases": [
+        "microservice architecture",
+        "microservices architecture",
+        "micro-services",
+        "service-oriented architecture",
+        "soa"
+      ]
+    },
+    {
+      "name": "Authentication & Security",
+      "category": "Web Development",
+      "type": "concept",
+      "description": "Implementing authentication, authorization and secure coding in applications.",
+      "aliases": [
+        "authentication",
+        "authorization",
+        "oauth",
+        "oauth2",
+        "jwt",
+        "secure coding",
+        "application security",
+        "owasp"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "Databases",
+      "type": "platform",
+      "description": "Open-source relational database.",
+      "aliases": [
+        "postgres",
+        "postgresql db",
+        "postgres db",
+        "psql",
+        "pgsql"
+      ],
+      "prerequisites": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "category": "Databases",
+      "type": "platform",
+      "description": "Widely used open-source relational database.",
+      "aliases": [
+        "mysql db",
+        "mariadb"
+      ],
+      "prerequisites": [
+        "SQL"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "category": "Databases",
+      "type": "platform",
+      "description": "Document-oriented NoSQL database.",
+      "aliases": [
+        "mongo",
+        "mongo db",
+        "mongoose",
+        "nosql"
+      ]
+    },
+    {
+      "name": "SQLite",
+      "category": "Databases",
+      "type": "platform",
+      "description": "Embedded relational database common in mobile apps.",
+      "aliases": [
+        "sqlite3",
+        "room database",
+        "core data"
+      ]
+    },
+    {
+      "name": "Redis",
+      "category": "Databases",
+      "type": "platform",
+      "description": "In-memory data store used for caching and queues.",
+      "aliases": [
+        "redis cache"
+      ]
+    },
+    {
+      "name": "Firebase",
+      "category": "Mobile",
+      "type": "platform",
+      "description": "Google's backend-as-a-service for mobile and web apps.",
+      "aliases": [
+        "firestore",
+        "firebase auth",
+        "google firebase"
+      ]
+    },
+    {
+      "name": "Git",
+      "category": "Software Engineering",
+      "type": "tool",
+      "description": "Distributed version control.",
+      "aliases": [
+        "github",
+        "gitlab",
+        "bitbucket",
+        "version control",
+        "source control",
+        "git/github"
+      ]
+    },
+    {
+      "name": "Data Structures & Algorithms",
+      "category": "Software Engineering",
+      "type": "concept",
+      "description": "Core computer-science problem-solving foundations.",
+      "aliases": [
+        "data structures and algorithms",
+        "dsa",
+        "algorithms",
+        "data structures",
+        "algorithms and data structures"
+      ]
+    },
+    {
+      "name": "Object-Oriented Programming",
+      "category": "Software Engineering",
+      "type": "concept",
+      "description": "Designing software around objects, classes and interfaces.",
+      "aliases": [
+        "oop",
+        "oops",
+        "object oriented programming",
+        "object-oriented design",
+        "ood",
+        "solid principles"
+      ]
+    },
+    {
+      "name": "System Design",
+      "category": "Software Engineering",
+      "type": "concept",
+      "description": "Designing scalable, reliable distributed systems.",
+      "aliases": [
+        "systems design",
+        "distributed systems",
+        "scalable systems",
+        "software architecture",
+        "high level design"
+      ]
+    },
+    {
+      "name": "Software Testing",
+      "category": "Software Engineering",
+      "type": "practice",
+      "description": "Writing and running automated tests (unit, integration, end-to-end).",
+      "aliases": [
+        "testing",
+        "unit testing",
+        "unit tests",
+        "test automation",
+        "automated testing",
+        "integration testing",
+        "tdd",
+        "test-driven development",
+        "jest",
+        "junit",
+        "pytest",
+        "selenium",
+        "cypress",
+        "testing/debugging"
+      ]
+    },
+    {
+      "name": "Debugging",
+      "category": "Software Engineering",
+      "type": "practice",
+      "description": "Systematically locating and fixing defects.",
+      "aliases": [
+        "troubleshooting",
+        "debug",
+        "root cause analysis"
+      ]
+    },
+    {
+      "name": "CI/CD",
+      "category": "DevOps",
+      "type": "practice",
+      "description": "Continuous integration and continuous delivery pipelines.",
+      "aliases": [
+        "ci cd",
+        "continuous integration",
+        "continuous delivery",
+        "continuous deployment",
+        "ci/cd pipelines",
+        "build pipelines"
+      ]
+    },
+    {
+      "name": "Agile/Scrum",
+      "category": "Software Engineering",
+      "type": "practice",
+      "description": "Iterative delivery practices such as Scrum and Kanban.",
+      "aliases": [
+        "agile",
+        "scrum",
+        "kanban",
+        "agile methodologies",
+        "agile methodology",
+        "sprint planning",
+        "agile/scrum"
+      ]
+    },
+    {
+      "name": "SDLC",
+      "category": "Software Engineering",
+      "type": "concept",
+      "description": "Understanding the software development life cycle end to end.",
+      "aliases": [
+        "software development life cycle",
+        "software development lifecycle"
+      ]
+    },
+    {
+      "name": "AI/ML Integration",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Integrating ML models or AI APIs into software products.",
+      "aliases": [
+        "ai integration",
+        "ml integration",
+        "ai/ml integration",
+        "ai-assisted development",
+        "llm apis",
+        "openai api"
+      ]
+    },
+    {
+      "name": "Performance Optimization",
+      "category": "Software Engineering",
+      "type": "practice",
+      "description": "Profiling and improving speed, memory and responsiveness.",
+      "aliases": [
+        "performance tuning",
+        "app performance",
+        "profiling",
+        "optimization"
+      ]
+    },
+    {
+      "name": "Problem Solving",
+      "category": "Soft Skills",
+      "type": "soft_skill",
+      "description": "Breaking down ambiguous problems into workable solutions.",
+      "aliases": [
+        "problem-solving",
+        "analytical problem solving",
+        "problem solving skills"
+      ]
+    },
+    {
+      "name": "AWS",
+      "category": "Cloud & Infrastructure",
+      "type": "platform",
+      "description": "Amazon Web Services cloud platform.",
+      "aliases": [
+        "amazon web services",
+        "aws cloud",
+        "ec2",
+        "s3",
+        "aws lambda",
+        "lambda",
+        "sagemaker",
+        "amazon sagemaker"
+      ]
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud & Infrastructure",
+      "type": "platform",
+      "description": "Microsoft Azure cloud platform.",
+      "aliases": [
+        "microsoft azure",
+        "azure cloud",
+        "azure devops",
+        "azure ml"
+      ]
+    },
+    {
+      "name": "GCP",
+      "category": "Cloud & Infrastructure",
+      "type": "platform",
+      "description": "Google Cloud Platform.",
+      "aliases": [
+        "google cloud",
+        "google cloud platform",
+        "bigquery",
+        "vertex ai"
+      ]
+    },
+    {
+      "name": "Cloud Computing",
+      "category": "Cloud & Infrastructure",
+      "type": "concept",
+      "description": "Core cloud concepts: compute, storage, networking, managed services.",
+      "aliases": [
+        "cloud",
+        "cloud platforms",
+        "cloud services",
+        "cloud technologies",
+        "cloud infrastructure"
+      ]
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Container packaging and runtime.",
+      "aliases": [
+        "containers",
+        "containerization",
+        "docker compose",
+        "dockerfile"
+      ]
+    },
+    {
+      "name": "Kubernetes",
+      "category": "DevOps",
+      "type": "platform",
+      "description": "Container orchestration platform.",
+      "aliases": [
+        "k8s",
+        "eks",
+        "aks",
+        "gke",
+        "helm",
+        "openshift"
+      ],
+      "prerequisites": [
+        "Docker"
+      ]
+    },
+    {
+      "name": "Terraform",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Declarative infrastructure-as-code tool.",
+      "aliases": [
+        "hashicorp terraform",
+        "terraform cloud"
+      ]
+    },
+    {
+      "name": "Ansible",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Agentless configuration management and automation.",
+      "aliases": [
+        "ansible playbooks",
+        "chef",
+        "puppet"
+      ]
+    },
+    {
+      "name": "Infrastructure as Code",
+      "category": "DevOps",
+      "type": "practice",
+      "description": "Managing infrastructure through versioned code.",
+      "aliases": [
+        "iac",
+        "infrastructure-as-code",
+        "cloudformation",
+        "pulumi",
+        "bicep"
+      ]
+    },
+    {
+      "name": "Linux",
+      "category": "Cloud & Infrastructure",
+      "type": "platform",
+      "description": "Linux administration and command-line usage.",
+      "aliases": [
+        "unix",
+        "linux administration",
+        "ubuntu",
+        "red hat",
+        "rhel",
+        "centos"
+      ]
+    },
+    {
+      "name": "Networking",
+      "category": "Cloud & Infrastructure",
+      "type": "concept",
+      "description": "TCP/IP, DNS, load balancing, VPCs and routing.",
+      "aliases": [
+        "computer networking",
+        "tcp/ip",
+        "dns",
+        "vpc",
+        "load balancing",
+        "network fundamentals"
+      ]
+    },
+    {
+      "name": "Cloud Security",
+      "category": "Security",
+      "type": "concept",
+      "description": "Securing cloud workloads, identities and data.",
+      "aliases": [
+        "cloud security posture",
+        "cspm",
+        "aws security",
+        "azure security"
+      ]
+    },
+    {
+      "name": "Cost Optimization",
+      "category": "Cloud & Infrastructure",
+      "type": "practice",
+      "description": "Managing and reducing cloud spend (FinOps).",
+      "aliases": [
+        "finops",
+        "cloud cost optimization",
+        "cost management"
+      ]
+    },
+    {
+      "name": "Monitoring & Observability",
+      "category": "DevOps",
+      "type": "practice",
+      "description": "Metrics, logs and traces to understand system health.",
+      "aliases": [
+        "monitoring",
+        "observability",
+        "monitoring/observability",
+        "logging",
+        "alerting",
+        "elk stack",
+        "elk",
+        "opentelemetry",
+        "cloudwatch"
+      ]
+    },
+    {
+      "name": "Jenkins",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Open-source automation server for CI/CD.",
+      "aliases": [
+        "jenkins pipelines"
+      ]
+    },
+    {
+      "name": "GitLab CI",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "GitLab's built-in CI/CD system.",
+      "aliases": [
+        "gitlab ci/cd",
+        "gitlab pipelines"
+      ]
+    },
+    {
+      "name": "GitHub Actions",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "GitHub's workflow automation and CI/CD.",
+      "aliases": [
+        "github workflows"
+      ]
+    },
+    {
+      "name": "Prometheus",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Open-source metrics collection and alerting.",
+      "aliases": [
+        "promql"
+      ]
+    },
+    {
+      "name": "Datadog",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Commercial monitoring and observability platform.",
+      "aliases": [
+        "data dog",
+        "new relic",
+        "dynatrace"
+      ]
+    },
+    {
+      "name": "Grafana",
+      "category": "DevOps",
+      "type": "tool",
+      "description": "Dashboards for metrics and logs.",
+      "aliases": [
+        "grafana dashboards"
+      ]
+    },
+    {
+      "name": "Excel",
+      "category": "Data & Analytics",
+      "type": "tool",
+      "description": "Spreadsheet analysis: formulas, pivot tables, lookups.",
+      "aliases": [
+        "advanced excel",
+        "ms excel",
+        "microsoft excel",
+        "spreadsheets",
+        "pivot tables",
+        "vlookup",
+        "google sheets"
+      ]
+    },
+    {
+      "name": "Data Visualization",
+      "category": "Data & Analytics",
+      "type": "concept",
+      "description": "Communicating data through charts and dashboards.",
+      "aliases": [
+        "data viz",
+        "dataviz",
+        "dashboards",
+        "dashboarding",
+        "visualization",
+        "matplotlib",
+        "seaborn",
+        "plotly"
+      ]
+    },
+    {
+      "name": "Tableau",
+      "category": "Data & Analytics",
+      "type": "tool",
+      "description": "Business intelligence and dashboarding tool.",
+      "aliases": [
+        "tableau desktop"
+      ]
+    },
+    {
+      "name": "Power BI",
+      "category": "Data & Analytics",
+      "type": "tool",
+      "description": "Microsoft's business intelligence tool.",
+      "aliases": [
+        "powerbi",
+        "power-bi",
+        "dax",
+        "microsoft power bi"
+      ]
+    },
+    {
+      "name": "Data Cleaning",
+      "category": "Data & Analytics",
+      "type": "practice",
+      "description": "Preparing messy data: missing values, types, duplicates, outliers.",
+      "aliases": [
+        "data wrangling",
+        "data preparation",
+        "data cleansing",
+        "data munging",
+        "data preprocessing"
+      ]
+    },
+    {
+      "name": "Data Analysis",
+      "category": "Data & Analytics",
+      "type": "concept",
+      "description": "Exploring and interpreting data to answer questions.",
+      "aliases": [
+        "data analytics",
+        "exploratory data analysis",
+        "eda",
+        "analytics",
+        "quantitative analysis"
+      ]
+    },
+    {
+      "name": "Big Data",
+      "category": "Data & Analytics",
+      "type": "concept",
+      "description": "Working with datasets too large for a single machine.",
+      "aliases": [
+        "hadoop",
+        "hive",
+        "big data technologies",
+        "distributed computing"
+      ]
+    },
+    {
+      "name": "Spark",
+      "category": "Data & Analytics",
+      "type": "framework",
+      "description": "Distributed data processing engine.",
+      "aliases": [
+        "apache spark",
+        "pyspark",
+        "spark sql",
+        "databricks"
+      ]
+    },
+    {
+      "name": "Data Engineering",
+      "category": "Data & Analytics",
+      "type": "concept",
+      "description": "Building data pipelines (ETL/ELT) and data infrastructure.",
+      "aliases": [
+        "data pipelines",
+        "data pipeline",
+        "etl",
+        "elt",
+        "etl pipelines",
+        "airflow",
+        "apache airflow",
+        "dbt",
+        "kafka",
+        "apache kafka"
+      ]
+    },
+    {
+      "name": "A/B Testing",
+      "category": "Statistics & Math",
+      "type": "practice",
+      "description": "Designing and analysing controlled experiments.",
+      "aliases": [
+        "ab testing",
+        "a/b tests",
+        "experimentation",
+        "split testing",
+        "hypothesis testing"
+      ],
+      "prerequisites": [
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Pandas",
+      "category": "Data & Analytics",
+      "type": "library",
+      "description": "Python library for tabular data analysis.",
+      "aliases": [
+        "pandas library"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "NumPy",
+      "category": "Data & Analytics",
+      "type": "library",
+      "description": "Python library for numerical computing.",
+      "aliases": [
+        "numpy library"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Jupyter",
+      "category": "Data & Analytics",
+      "type": "tool",
+      "description": "Interactive notebooks for analysis and experimentation.",
+      "aliases": [
+        "jupyter notebook",
+        "jupyter notebooks",
+        "jupyterlab",
+        "google colab",
+        "colab"
+      ]
+    },
+    {
+      "name": "Snowflake",
+      "category": "Databases",
+      "type": "platform",
+      "description": "Cloud data warehouse.",
+      "aliases": [
+        "snowflake data warehouse",
+        "redshift",
+        "data warehouse",
+        "data warehousing"
+      ]
+    },
+    {
+      "name": "Statistics",
+      "category": "Statistics & Math",
+      "type": "concept",
+      "description": "Descriptive and inferential statistics, probability and distributions.",
+      "aliases": [
+        "statistical analysis",
+        "probability",
+        "probability and statistics",
+        "statistical modeling",
+        "inferential statistics",
+        "regression analysis"
+      ]
+    },
+    {
+      "name": "Mathematics",
+      "category": "Statistics & Math",
+      "type": "concept",
+      "description": "Linear algebra, calculus and optimization used in ML.",
+      "aliases": [
+        "linear algebra",
+        "calculus",
+        "mathematics/statistics",
+        "math",
+        "maths"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Supervised and unsupervised learning, model training and evaluation.",
+      "aliases": [
+        "ml",
+        "machine learning fundamentals",
+        "machine learning algorithms",
+        "predictive modeling",
+        "predictive modelling",
+        "supervised learning",
+        "unsupervised learning",
+        "xgboost"
+      ],
+      "prerequisites": [
+        "Python",
+        "Statistics"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Neural networks, CNNs, RNNs and transformers.",
+      "aliases": [
+        "neural networks",
+        "dl",
+        "cnn",
+        "cnns",
+        "rnn",
+        "transformers",
+        "computer vision"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "Mathematics"
+      ]
+    },
+    {
+      "name": "NLP",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Natural language processing.",
+      "aliases": [
+        "natural language processing",
+        "text analytics",
+        "text mining"
+      ],
+      "prerequisites": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "TensorFlow",
+      "category": "Machine Learning & AI",
+      "type": "library",
+      "description": "Google's deep learning framework.",
+      "aliases": [
+        "tensorflow 2",
+        "tf",
+        "tfx"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "PyTorch",
+      "category": "Machine Learning & AI",
+      "type": "library",
+      "description": "Meta's deep learning framework.",
+      "aliases": [
+        "torch",
+        "pytorch lightning"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Scikit-learn",
+      "category": "Machine Learning & AI",
+      "type": "library",
+      "description": "Python library for classical machine learning.",
+      "aliases": [
+        "sklearn",
+        "scikit learn",
+        "scikit"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "Keras",
+      "category": "Machine Learning & AI",
+      "type": "library",
+      "description": "High-level neural network API.",
+      "aliases": [
+        "keras api"
+      ],
+      "prerequisites": [
+        "Python"
+      ]
+    },
+    {
+      "name": "MLOps",
+      "category": "Machine Learning & AI",
+      "type": "practice",
+      "description": "Operating ML systems: versioning, pipelines, monitoring, retraining.",
+      "aliases": [
+        "ml ops",
+        "mlflow",
+        "kubeflow",
+        "ml pipelines",
+        "model monitoring"
+      ],
+      "prerequisites": [
+        "Machine Learning",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Model Deployment",
+      "category": "Machine Learning & AI",
+      "type": "practice",
+      "description": "Serving trained models in production (APIs, batch, edge).",
+      "aliases": [
+        "model serving",
+        "deploying models",
+        "ml deployment",
+        "deploy ml models",
+        "inference"
+      ],
+      "prerequisites": [
+        "Machine Learning"
+      ]
+    },
+    {
+      "name": "Large Language Models",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Working with LLMs: APIs, fine-tuning, evaluation and limitations.",
+      "aliases": [
+        "llm",
+        "llms",
+        "large language model",
+        "gpt",
+        "fine-tuning llms",
+        "foundation models"
+      ]
+    },
+    {
+      "name": "Prompt Engineering",
+      "category": "Machine Learning & AI",
+      "type": "practice",
+      "description": "Designing and iterating prompts for LLM-based systems.",
+      "aliases": [
+        "prompt design",
+        "prompting"
+      ]
+    },
+    {
+      "name": "RAG",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Retrieval-augmented generation pipelines.",
+      "aliases": [
+        "retrieval augmented generation",
+        "retrieval-augmented generation"
+      ],
+      "prerequisites": [
+        "Large Language Models",
+        "Vector Databases"
+      ]
+    },
+    {
+      "name": "Vector Databases",
+      "category": "Machine Learning & AI",
+      "type": "platform",
+      "description": "Stores for embeddings and similarity search.",
+      "aliases": [
+        "vector database",
+        "vector db",
+        "pinecone",
+        "weaviate",
+        "faiss",
+        "chroma",
+        "pgvector",
+        "milvus",
+        "embeddings"
+      ]
+    },
+    {
+      "name": "Model Evaluation",
+      "category": "Machine Learning & AI",
+      "type": "practice",
+      "description": "Measuring model quality: metrics, test sets, evals for LLMs.",
+      "aliases": [
+        "evals",
+        "llm evaluation",
+        "model validation",
+        "evaluation metrics"
+      ]
+    },
+    {
+      "name": "Agentic AI",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Building LLM agents that plan and use tools.",
+      "aliases": [
+        "ai agents",
+        "llm agents",
+        "agents",
+        "multi-agent systems",
+        "agentic workflows"
+      ],
+      "prerequisites": [
+        "Large Language Models"
+      ]
+    },
+    {
+      "name": "Generative AI",
+      "category": "Machine Learning & AI",
+      "type": "concept",
+      "description": "Using generative AI tools and models (text, image, code).",
+      "aliases": [
+        "genai",
+        "gen ai",
+        "generative ai tools",
+        "chatgpt",
+        "copilot",
+        "github copilot"
+      ]
+    },
+    {
+      "name": "AI Literacy",
+      "category": "Product & Business",
+      "type": "concept",
+      "description": "Understanding AI capabilities and limits well enough to make product decisions.",
+      "aliases": [
+        "ai fluency",
+        "ai product sense",
+        "ai awareness"
+      ]
+    },
+    {
+      "name": "Hugging Face",
+      "category": "Machine Learning & AI",
+      "type": "library",
+      "description": "Model hub and transformer libraries.",
+      "aliases": [
+        "huggingface",
+        "hugging face transformers"
+      ]
+    },
+    {
+      "name": "LangChain",
+      "category": "Machine Learning & AI",
+      "type": "library",
+      "description": "Framework for building LLM applications.",
+      "aliases": [
+        "llamaindex",
+        "llama index",
+        "langgraph"
+      ]
+    },
+    {
+      "name": "Network Security",
+      "category": "Security",
+      "type": "concept",
+      "description": "Protecting networks: segmentation, IDS/IPS, secure protocols.",
+      "aliases": [
+        "ids/ips",
+        "intrusion detection",
+        "network defense",
+        "network security monitoring"
+      ]
+    },
+    {
+      "name": "SIEM",
+      "category": "Security",
+      "type": "concept",
+      "description": "Security information and event management.",
+      "aliases": [
+        "security information and event management",
+        "qradar",
+        "microsoft sentinel",
+        "sentinel",
+        "elastic siem"
+      ]
+    },
+    {
+      "name": "Splunk",
+      "category": "Security",
+      "type": "tool",
+      "description": "Log analytics and SIEM platform.",
+      "aliases": [
+        "splunk enterprise",
+        "spl"
+      ]
+    },
+    {
+      "name": "Risk Management",
+      "category": "Security",
+      "type": "practice",
+      "description": "Identifying, assessing and mitigating security risk.",
+      "aliases": [
+        "risk assessment",
+        "risk analysis",
+        "grc",
+        "governance risk and compliance"
+      ]
+    },
+    {
+      "name": "Incident Response",
+      "category": "Security",
+      "type": "practice",
+      "description": "Detecting, containing and recovering from security incidents.",
+      "aliases": [
+        "ir",
+        "incident handling",
+        "digital forensics",
+        "dfir"
+      ]
+    },
+    {
+      "name": "Firewalls & VPNs",
+      "category": "Security",
+      "type": "concept",
+      "description": "Configuring firewalls, VPNs and perimeter controls.",
+      "aliases": [
+        "firewalls",
+        "firewall",
+        "vpn",
+        "vpns",
+        "firewalls/vpns",
+        "palo alto",
+        "fortinet"
+      ]
+    },
+    {
+      "name": "Penetration Testing",
+      "category": "Security",
+      "type": "practice",
+      "description": "Authorized offensive testing to find vulnerabilities.",
+      "aliases": [
+        "pen testing",
+        "pentesting",
+        "ethical hacking",
+        "vulnerability assessment",
+        "vapt",
+        "red teaming"
+      ]
+    },
+    {
+      "name": "Burp Suite",
+      "category": "Security",
+      "type": "tool",
+      "description": "Web application security testing toolkit.",
+      "aliases": [
+        "burp",
+        "burpsuite"
+      ]
+    },
+    {
+      "name": "Metasploit",
+      "category": "Security",
+      "type": "tool",
+      "description": "Penetration testing framework.",
+      "aliases": [
+        "metasploit framework"
+      ]
+    },
+    {
+      "name": "Zero Trust",
+      "category": "Security",
+      "type": "concept",
+      "description": "Security model that verifies every request explicitly.",
+      "aliases": [
+        "zero trust architecture",
+        "ztna",
+        "zero-trust"
+      ]
+    },
+    {
+      "name": "Nessus",
+      "category": "Security",
+      "type": "tool",
+      "description": "Vulnerability scanner.",
+      "aliases": [
+        "tenable",
+        "qualys",
+        "openvas",
+        "vulnerability scanning"
+      ]
+    },
+    {
+      "name": "NIST Framework",
+      "category": "Security",
+      "type": "concept",
+      "description": "NIST Cybersecurity Framework and related standards.",
+      "aliases": [
+        "nist",
+        "nist csf",
+        "nist 800-53",
+        "nist cybersecurity framework"
+      ]
+    },
+    {
+      "name": "ISO 27001",
+      "category": "Security",
+      "type": "concept",
+      "description": "Information security management standard.",
+      "aliases": [
+        "iso/iec 27001",
+        "iso27001",
+        "isms"
+      ]
+    },
+    {
+      "name": "GDPR/HIPAA Compliance",
+      "category": "Security",
+      "type": "concept",
+      "description": "Privacy and data-protection regulatory compliance.",
+      "aliases": [
+        "gdpr",
+        "hipaa",
+        "gdpr/hipaa",
+        "data privacy",
+        "pci dss",
+        "soc 2",
+        "soc2",
+        "compliance"
+      ]
+    },
+    {
+      "name": "IAM",
+      "category": "Security",
+      "type": "concept",
+      "description": "Identity and access management.",
+      "aliases": [
+        "identity and access management",
+        "identity management",
+        "access management",
+        "okta",
+        "active directory",
+        "sso"
+      ]
+    },
+    {
+      "name": "Threat Hunting",
+      "category": "Security",
+      "type": "practice",
+      "description": "Proactively searching for threats in an environment.",
+      "aliases": [
+        "threat intelligence",
+        "threat detection",
+        "mitre att&ck",
+        "mitre attack"
+      ]
+    },
+    {
+      "name": "DevSecOps",
+      "category": "Security",
+      "type": "practice",
+      "description": "Integrating security into the delivery pipeline.",
+      "aliases": [
+        "sast",
+        "dast",
+        "security automation",
+        "shift-left security"
+      ]
+    },
+    {
+      "name": "Wireshark",
+      "category": "Security",
+      "type": "tool",
+      "description": "Network protocol analyzer.",
+      "aliases": [
+        "tcpdump",
+        "packet analysis"
+      ]
+    },
+    {
+      "name": "Android SDK",
+      "category": "Mobile",
+      "type": "framework",
+      "description": "Native Android development (Android SDK, Jetpack, Android Studio).",
+      "aliases": [
+        "android",
+        "android development",
+        "android studio",
+        "jetpack compose",
+        "jetpack"
+      ]
+    },
+    {
+      "name": "iOS / Xcode",
+      "category": "Mobile",
+      "type": "framework",
+      "description": "Native iOS development with Xcode and Apple frameworks.",
+      "aliases": [
+        "ios",
+        "xcode",
+        "ios/xcode",
+        "ios development",
+        "uikit",
+        "cocoa touch"
+      ]
+    },
+    {
+      "name": "Flutter",
+      "category": "Mobile",
+      "type": "framework",
+      "description": "Cross-platform UI toolkit using Dart.",
+      "aliases": [
+        "flutter/dart",
+        "dart",
+        "flutter sdk"
+      ]
+    },
+    {
+      "name": "React Native",
+      "category": "Mobile",
+      "type": "framework",
+      "description": "Cross-platform mobile apps with React.",
+      "aliases": [
+        "react-native",
+        "expo"
+      ],
+      "prerequisites": [
+        "JavaScript"
+      ]
+    },
+    {
+      "name": "UI/UX Principles",
+      "category": "Design",
+      "type": "concept",
+      "description": "Understanding usability and visual design well enough to build good interfaces and collaborate with designers.",
+      "aliases": [
+        "ui/ux",
+        "ui/ux collaboration",
+        "ui ux",
+        "ux principles",
+        "ui principles",
+        "material design",
+        "human interface guidelines"
+      ]
+    },
+    {
+      "name": "Figma",
+      "category": "Design",
+      "type": "tool",
+      "description": "Collaborative interface design tool.",
+      "aliases": [
+        "figjam",
+        "figma design"
+      ]
+    },
+    {
+      "name": "Wireframing",
+      "category": "Design",
+      "type": "practice",
+      "description": "Low-fidelity layout sketches for products and flows.",
+      "aliases": [
+        "wireframes",
+        "wireframe",
+        "balsamiq",
+        "low-fidelity mockups"
+      ]
+    },
+    {
+      "name": "Prototyping",
+      "category": "Design",
+      "type": "practice",
+      "description": "Interactive prototypes for testing ideas.",
+      "aliases": [
+        "prototypes",
+        "high-fidelity prototypes",
+        "interactive prototypes",
+        "rapid prototyping"
+      ]
+    },
+    {
+      "name": "User Research",
+      "category": "Design",
+      "type": "practice",
+      "description": "Interviews, surveys and observation to understand users.",
+      "aliases": [
+        "user interviews",
+        "ux research",
+        "customer research",
+        "user needs analysis",
+        "customer discovery"
+      ]
+    },
+    {
+      "name": "Usability Testing",
+      "category": "Design",
+      "type": "practice",
+      "description": "Testing designs with real users to find usability problems.",
+      "aliases": [
+        "usability studies",
+        "user testing",
+        "usability evaluation"
+      ]
+    },
+    {
+      "name": "Adobe XD",
+      "category": "Design",
+      "type": "tool",
+      "description": "Adobe's UX design and prototyping tool.",
+      "aliases": [
+        "xd",
+        "adobe creative suite",
+        "adobe photoshop",
+        "photoshop",
+        "illustrator"
+      ]
+    },
+    {
+      "name": "Sketch",
+      "category": "Design",
+      "type": "tool",
+      "description": "Mac-based interface design tool.",
+      "aliases": [
+        "sketch app"
+      ],
+      "caseSensitiveAliases": [
+        "Sketch"
+      ]
+    },
+    {
+      "name": "Design Systems",
+      "category": "Design",
+      "type": "concept",
+      "description": "Reusable components, tokens and guidelines for consistent UI.",
+      "aliases": [
+        "design system",
+        "component libraries",
+        "style guides",
+        "design tokens"
+      ]
+    },
+    {
+      "name": "Information Architecture",
+      "category": "Design",
+      "type": "concept",
+      "description": "Organizing and labeling content so users can find things.",
+      "aliases": [
+        "ia",
+        "site maps",
+        "sitemaps",
+        "card sorting",
+        "user flows"
+      ]
+    },
+    {
+      "name": "Typography",
+      "category": "Design",
+      "type": "concept",
+      "description": "Type selection, hierarchy and readability.",
+      "aliases": [
+        "type hierarchy",
+        "visual design"
+      ]
+    },
+    {
+      "name": "Interaction Design",
+      "category": "Design",
+      "type": "concept",
+      "description": "Designing behaviour, states and micro-interactions.",
+      "aliases": [
+        "ixd",
+        "interaction design principles",
+        "micro-interactions",
+        "motion design"
+      ]
+    },
+    {
+      "name": "Design Thinking",
+      "category": "Design",
+      "type": "concept",
+      "description": "Human-centred problem-solving process.",
+      "aliases": [
+        "human-centered design",
+        "human centred design",
+        "user-centered design",
+        "ucd"
+      ]
+    },
+    {
+      "name": "Product Roadmapping",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Planning and communicating product direction over time.",
+      "aliases": [
+        "roadmapping",
+        "product roadmap",
+        "roadmaps",
+        "product strategy",
+        "product planning"
+      ]
+    },
+    {
+      "name": "Stakeholder Management",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Aligning expectations and decisions across stakeholders.",
+      "aliases": [
+        "stakeholder communication",
+        "stakeholder engagement",
+        "managing stakeholders"
+      ]
+    },
+    {
+      "name": "Market Research",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Understanding markets, competitors and customer segments.",
+      "aliases": [
+        "competitive analysis",
+        "competitor analysis",
+        "market analysis"
+      ]
+    },
+    {
+      "name": "Prioritization Frameworks",
+      "category": "Product & Business",
+      "type": "concept",
+      "description": "Methods such as RICE, MoSCoW and Kano for deciding what to build.",
+      "aliases": [
+        "prioritization",
+        "rice",
+        "moscow",
+        "kano model",
+        "backlog prioritization"
+      ]
+    },
+    {
+      "name": "Jira",
+      "category": "Product & Business",
+      "type": "tool",
+      "description": "Issue and project tracking tool.",
+      "aliases": [
+        "atlassian jira",
+        "jira software",
+        "linear",
+        "asana",
+        "trello"
+      ]
+    },
+    {
+      "name": "Confluence",
+      "category": "Product & Business",
+      "type": "tool",
+      "description": "Team documentation wiki.",
+      "aliases": [
+        "atlassian confluence",
+        "notion"
+      ]
+    },
+    {
+      "name": "Strategic Thinking",
+      "category": "Product & Business",
+      "type": "soft_skill",
+      "description": "Connecting day-to-day decisions to long-term goals.",
+      "aliases": [
+        "strategy",
+        "strategic planning",
+        "business strategy"
+      ]
+    },
+    {
+      "name": "Requirements Gathering",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Eliciting and documenting what a solution must do.",
+      "aliases": [
+        "requirements elicitation",
+        "requirements analysis",
+        "requirement gathering",
+        "business requirements"
+      ]
+    },
+    {
+      "name": "BPMN",
+      "category": "Product & Business",
+      "type": "concept",
+      "description": "Business Process Model and Notation.",
+      "aliases": [
+        "business process model and notation",
+        "bpmn 2.0"
+      ]
+    },
+    {
+      "name": "Process Modeling",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Mapping and improving business processes.",
+      "aliases": [
+        "process mapping",
+        "process improvement",
+        "business process modeling",
+        "visio",
+        "lucidchart"
+      ]
+    },
+    {
+      "name": "Business Requirements Documents",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Writing BRDs/FRDs that specify business needs.",
+      "aliases": [
+        "brd",
+        "brds",
+        "frd",
+        "functional specifications",
+        "functional requirements document"
+      ]
+    },
+    {
+      "name": "User Stories",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Writing user stories and acceptance criteria.",
+      "aliases": [
+        "acceptance criteria",
+        "user story",
+        "use cases"
+      ]
+    },
+    {
+      "name": "Change Management",
+      "category": "Product & Business",
+      "type": "practice",
+      "description": "Helping organisations adopt new processes and systems.",
+      "aliases": [
+        "organizational change",
+        "change adoption"
+      ]
+    },
+    {
+      "name": "Business Acumen",
+      "category": "Product & Business",
+      "type": "soft_skill",
+      "description": "Understanding how a business makes money and what drives its metrics.",
+      "aliases": [
+        "business sense",
+        "commercial awareness",
+        "business understanding",
+        "kpis"
+      ]
+    },
+    {
+      "name": "Domain Expertise",
+      "category": "Product & Business",
+      "type": "concept",
+      "description": "Knowledge of the industry the data or product comes from.",
+      "aliases": [
+        "domain knowledge",
+        "industry knowledge",
+        "subject matter expertise"
+      ]
+    },
+    {
+      "name": "Cross-functional Leadership",
+      "category": "Soft Skills",
+      "type": "soft_skill",
+      "description": "Leading work across engineering, design, data and business teams without direct authority.",
+      "aliases": [
+        "cross functional leadership",
+        "leading cross-functional teams",
+        "influence without authority"
+      ]
+    },
+    {
+      "name": "Cross-functional Collaboration",
+      "category": "Soft Skills",
+      "type": "soft_skill",
+      "description": "Working effectively with people in other disciplines.",
+      "aliases": [
+        "cross functional collaboration",
+        "collaboration",
+        "teamwork",
+        "working with cross-functional teams"
+      ]
+    },
+    {
+      "name": "Communication",
+      "category": "Soft Skills",
+      "type": "soft_skill",
+      "description": "Explaining work clearly in writing and conversation.",
+      "aliases": [
+        "communication skills",
+        "verbal communication",
+        "written communication",
+        "written and verbal communication",
+        "presentation skills",
+        "storytelling",
+        "data storytelling"
+      ]
+    },
+    {
+      "name": "Critical Thinking",
+      "category": "Soft Skills",
+      "type": "soft_skill",
+      "description": "Questioning assumptions and evaluating evidence.",
+      "aliases": [
+        "analytical thinking",
+        "analytical skills",
+        "logical reasoning"
+      ]
+    }
+  ],
+  "textExtractionStopAliases": [
+    "agents",
+    "alerting",
+    "analytics",
+    "apis",
+    "chef",
+    "cloud",
+    "collaboration",
+    "compliance",
+    "dart",
+    "debug",
+    "dl",
+    "expo",
+    "express",
+    "ia",
+    "inference",
+    "ir",
+    "kpis",
+    "lambda",
+    "less",
+    "linear",
+    "logging",
+    "math",
+    "maths",
+    "monitoring",
+    "moscow",
+    "node",
+    "notion",
+    "ood",
+    "optimization",
+    "profiling",
+    "puppet",
+    "py",
+    "r",
+    "rest",
+    "rice",
+    "s3",
+    "scikit",
+    "sentinel",
+    "sketch",
+    "spl",
+    "spring",
+    "sso",
+    "strategy",
+    "swift",
+    "teamwork",
+    "testing",
+    "tf",
+    "torch",
+    "ts",
+    "ucd",
+    "use cases",
+    "visualization",
+    "xd"
+  ]
+}

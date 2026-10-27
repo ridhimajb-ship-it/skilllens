@@ -1,0 +1,1737 @@
+{
+  "_notice": "DEMO DATA — synthetic responses generated from the initial hypothesis taxonomy for the SkillLens prototype. These are NOT real professionals. Replace with validated research data.",
+  "generatedBy": "scripts/generate-demo-data.js",
+  "responses": [
+    {
+      "role": "software-engineer",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Data Structures & Algorithms",
+        "Java",
+        "SQL",
+        "Object-Oriented Programming",
+        "REST APIs",
+        "System Design",
+        "Problem Solving",
+        "Software Testing",
+        "C++",
+        "AI/ML Integration"
+      ],
+      "toolsUsed": [
+        "Git",
+        "AWS",
+        "Docker"
+      ],
+      "beginnerSkills": [
+        "Data Structures & Algorithms",
+        "Debugging",
+        "System Design"
+      ],
+      "overemphasizedSkills": [
+        "Communication"
+      ],
+      "beginnerMistakes": "[Demo] Collecting frameworks without understanding fundamentals such as HTTP, data structures and debugging.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "software-engineer",
+      "industry": "Healthcare",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Data Structures & Algorithms",
+        "Java",
+        "SQL",
+        "REST APIs",
+        "System Design",
+        "Problem Solving",
+        "Software Testing",
+        "Debugging",
+        "CI/CD",
+        "Cloud Computing",
+        "Communication",
+        "AI/ML Integration",
+        "Microservices"
+      ],
+      "toolsUsed": [
+        "Git",
+        "Docker"
+      ],
+      "beginnerSkills": [
+        "Object-Oriented Programming",
+        "REST APIs",
+        "System Design"
+      ],
+      "overemphasizedSkills": [
+        "Docker"
+      ],
+      "beginnerMistakes": "[Demo] Not reading other people's code or writing tests before shipping.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Share what the job really involves",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "software-engineer",
+      "industry": "Healthcare",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Data Structures & Algorithms",
+        "Python",
+        "Java",
+        "SQL",
+        "Object-Oriented Programming",
+        "System Design",
+        "Problem Solving",
+        "Software Testing",
+        "Debugging",
+        "Cloud Computing",
+        "Agile/Scrum"
+      ],
+      "toolsUsed": [
+        "Git",
+        "AWS"
+      ],
+      "beginnerSkills": [
+        "System Design",
+        "Python",
+        "REST APIs"
+      ],
+      "overemphasizedSkills": [
+        "C++"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding Git workflows until the first job forces them.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "software-developer",
+      "industry": "Healthcare",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Java",
+        "Python",
+        "SQL",
+        "Object-Oriented Programming",
+        "Debugging",
+        "Software Testing",
+        "Problem Solving",
+        "SDLC",
+        "JavaScript"
+      ],
+      "toolsUsed": [
+        "Git",
+        "Docker"
+      ],
+      "beginnerSkills": [
+        "Java",
+        "Git",
+        "Python"
+      ],
+      "overemphasizedSkills": [
+        "Azure"
+      ],
+      "beginnerMistakes": "[Demo] Collecting frameworks without understanding fundamentals such as HTTP, data structures and debugging.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "software-developer",
+      "industry": "Product / SaaS",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Java",
+        "Python",
+        "Object-Oriented Programming",
+        "REST APIs",
+        "Debugging",
+        "Software Testing",
+        "SDLC",
+        ".NET",
+        "Agile/Scrum"
+      ],
+      "toolsUsed": [
+        "Git",
+        "Azure"
+      ],
+      "beginnerSkills": [
+        "Python",
+        "Java",
+        "REST APIs"
+      ],
+      "overemphasizedSkills": [
+        "AWS"
+      ],
+      "beginnerMistakes": "[Demo] Not reading other people's code or writing tests before shipping.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "software-developer",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Java",
+        "Python",
+        "SQL",
+        "REST APIs",
+        "Debugging",
+        "Software Testing",
+        "Problem Solving",
+        "SDLC",
+        "Spring Boot"
+      ],
+      "toolsUsed": [
+        "Git",
+        "Azure"
+      ],
+      "beginnerSkills": [
+        "Debugging",
+        "SQL",
+        "REST APIs"
+      ],
+      "overemphasizedSkills": [
+        "Docker"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding Git workflows until the first job forces them.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "full-stack-developer",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "HTML",
+        "CSS",
+        "React",
+        "Node.js",
+        "SQL",
+        "REST APIs",
+        "TypeScript",
+        "Express.js",
+        "Next.js"
+      ],
+      "toolsUsed": [
+        "Git",
+        "MongoDB",
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "beginnerSkills": [
+        "SQL",
+        "REST APIs",
+        "CSS"
+      ],
+      "overemphasizedSkills": [
+        "MySQL"
+      ],
+      "beginnerMistakes": "[Demo] Collecting frameworks without understanding fundamentals such as HTTP, data structures and debugging.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "full-stack-developer",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "React",
+        "SQL",
+        "REST APIs",
+        "TypeScript",
+        "Express.js",
+        "Java",
+        "Python",
+        "Next.js"
+      ],
+      "toolsUsed": [
+        "Git",
+        "PostgreSQL",
+        "Docker"
+      ],
+      "beginnerSkills": [
+        "HTML",
+        "React",
+        "CSS"
+      ],
+      "overemphasizedSkills": [
+        "Python"
+      ],
+      "beginnerMistakes": "[Demo] Not reading other people's code or writing tests before shipping.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "full-stack-developer",
+      "industry": "IT services / consulting",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Node.js",
+        "SQL",
+        "TypeScript",
+        "Vue.js",
+        "CI/CD"
+      ],
+      "toolsUsed": [
+        "PostgreSQL",
+        "Redis"
+      ],
+      "beginnerSkills": [
+        "Git",
+        "REST APIs",
+        "JavaScript"
+      ],
+      "overemphasizedSkills": [
+        "Python"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding Git workflows until the first job forces them.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "frontend-developer",
+      "industry": "IT services / consulting",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Responsive Design",
+        "REST APIs",
+        "Software Testing",
+        "Debugging",
+        "Cross-browser Compatibility",
+        "Communication"
+      ],
+      "toolsUsed": [
+        "Git",
+        "Build Tools"
+      ],
+      "beginnerSkills": [
+        "Debugging",
+        "HTML",
+        "React"
+      ],
+      "overemphasizedSkills": [
+        "Build Tools"
+      ],
+      "beginnerMistakes": "[Demo] Collecting frameworks without understanding fundamentals such as HTTP, data structures and debugging.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "frontend-developer",
+      "industry": "Product / SaaS",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Responsive Design",
+        "REST APIs",
+        "Debugging",
+        "Angular",
+        "Cross-browser Compatibility"
+      ],
+      "toolsUsed": [
+        "Git",
+        "Build Tools"
+      ],
+      "beginnerSkills": [
+        "Software Testing",
+        "REST APIs",
+        "Responsive Design"
+      ],
+      "overemphasizedSkills": [
+        "UI/UX Principles"
+      ],
+      "beginnerMistakes": "[Demo] Not reading other people's code or writing tests before shipping.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Share what the job really involves",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "frontend-developer",
+      "industry": "Product / SaaS",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Responsive Design",
+        "Software Testing",
+        "Debugging",
+        "Vue.js",
+        "Cross-browser Compatibility",
+        "UI/UX Principles",
+        "Communication"
+      ],
+      "toolsUsed": [
+        "Git"
+      ],
+      "beginnerSkills": [
+        "Responsive Design",
+        "Debugging",
+        "React"
+      ],
+      "overemphasizedSkills": [
+        "Vue.js"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding Git workflows until the first job forces them.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "backend-developer",
+      "industry": "IT services / consulting",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Java",
+        "Python",
+        "Node.js",
+        "SQL",
+        "REST APIs",
+        "API Design",
+        "Authentication & Security"
+      ],
+      "toolsUsed": [
+        "PostgreSQL",
+        "Git",
+        "Docker"
+      ],
+      "beginnerSkills": [
+        "Python",
+        "SQL",
+        "Java"
+      ],
+      "overemphasizedSkills": [
+        "AWS"
+      ],
+      "beginnerMistakes": "[Demo] Collecting frameworks without understanding fundamentals such as HTTP, data structures and debugging.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "backend-developer",
+      "industry": "Product / SaaS",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Java",
+        "Python",
+        "SQL",
+        "Django"
+      ],
+      "toolsUsed": [
+        "PostgreSQL",
+        "Git",
+        "Docker",
+        "Redis"
+      ],
+      "beginnerSkills": [
+        "Git",
+        "API Design",
+        "SQL"
+      ],
+      "overemphasizedSkills": [
+        "Microservices"
+      ],
+      "beginnerMistakes": "[Demo] Not reading other people's code or writing tests before shipping.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "backend-developer",
+      "industry": "IT services / consulting",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Java",
+        "Python",
+        "Node.js",
+        "REST APIs",
+        "Authentication & Security",
+        "Spring Boot",
+        "Microservices"
+      ],
+      "toolsUsed": [
+        "PostgreSQL",
+        "Git",
+        "Docker",
+        "MongoDB",
+        "AWS",
+        "Kubernetes"
+      ],
+      "beginnerSkills": [
+        "REST APIs",
+        "SQL",
+        "Node.js"
+      ],
+      "overemphasizedSkills": [
+        "Spring Boot"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding Git workflows until the first job forces them.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "data-analyst",
+      "industry": "IT services / consulting",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "SQL",
+        "Python",
+        "Statistics",
+        "Communication",
+        "Critical Thinking",
+        "A/B Testing"
+      ],
+      "toolsUsed": [
+        "Excel",
+        "Power BI",
+        "Snowflake"
+      ],
+      "beginnerSkills": [
+        "Data Cleaning",
+        "Python",
+        "Tableau"
+      ],
+      "overemphasizedSkills": [
+        "Machine Learning"
+      ],
+      "beginnerMistakes": "[Demo] Jumping to machine learning before being comfortable with SQL and basic statistics.",
+      "wishLearnedEarlier": "[Demo] How to explain results to non-technical stakeholders.",
+      "workReality": "[Demo] A large share of time goes to finding, cleaning and validating data before any modelling happens.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "data-analyst",
+      "industry": "Healthcare",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Data Visualization",
+        "Statistics",
+        "Data Cleaning",
+        "Communication",
+        "Critical Thinking",
+        "Big Data",
+        "Business Acumen"
+      ],
+      "toolsUsed": [
+        "Excel",
+        "Power BI",
+        "Pandas"
+      ],
+      "beginnerSkills": [
+        "SQL",
+        "Statistics",
+        "Data Cleaning"
+      ],
+      "overemphasizedSkills": [
+        "Big Data"
+      ],
+      "beginnerMistakes": "[Demo] Spending little time on data cleaning, which is most of the real work.",
+      "wishLearnedEarlier": "[Demo] How to explain results to non-technical stakeholders.",
+      "workReality": "[Demo] A large share of time goes to finding, cleaning and validating data before any modelling happens.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "data-analyst",
+      "industry": "Finance / Banking / FinTech",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "SQL",
+        "Python",
+        "Data Visualization",
+        "Statistics",
+        "Communication",
+        "Critical Thinking",
+        "R",
+        "A/B Testing",
+        "Big Data"
+      ],
+      "toolsUsed": [
+        "Excel",
+        "Power BI",
+        "Tableau",
+        "Pandas"
+      ],
+      "beginnerSkills": [
+        "Data Visualization",
+        "Tableau",
+        "Critical Thinking"
+      ],
+      "overemphasizedSkills": [
+        "A/B Testing"
+      ],
+      "beginnerMistakes": "[Demo] Making charts without a clear question or audience.",
+      "wishLearnedEarlier": "[Demo] How to explain results to non-technical stakeholders.",
+      "workReality": "[Demo] A large share of time goes to finding, cleaning and validating data before any modelling happens.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "data-scientist",
+      "industry": "Finance / Banking / FinTech",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Python",
+        "SQL",
+        "Statistics",
+        "Machine Learning",
+        "Data Visualization",
+        "A/B Testing",
+        "Deep Learning",
+        "R",
+        "Data Engineering"
+      ],
+      "toolsUsed": [
+        "AWS",
+        "Jupyter",
+        "Scikit-learn"
+      ],
+      "beginnerSkills": [
+        "Machine Learning",
+        "Python",
+        "Data Visualization"
+      ],
+      "overemphasizedSkills": [
+        "Tableau"
+      ],
+      "beginnerMistakes": "[Demo] Jumping to machine learning before being comfortable with SQL and basic statistics.",
+      "wishLearnedEarlier": "[Demo] SQL joins and window functions, much earlier.",
+      "workReality": "[Demo] A large share of time goes to finding, cleaning and validating data before any modelling happens.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "data-scientist",
+      "industry": "IT services / consulting",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Python",
+        "SQL",
+        "Statistics",
+        "Machine Learning",
+        "Data Visualization",
+        "Communication",
+        "R",
+        "Spark"
+      ],
+      "toolsUsed": [],
+      "beginnerSkills": [
+        "Data Visualization",
+        "Python",
+        "SQL"
+      ],
+      "overemphasizedSkills": [
+        "Spark"
+      ],
+      "beginnerMistakes": "[Demo] Spending little time on data cleaning, which is most of the real work.",
+      "wishLearnedEarlier": "[Demo] SQL joins and window functions, much earlier.",
+      "workReality": "[Demo] A large share of time goes to finding, cleaning and validating data before any modelling happens.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "data-scientist",
+      "industry": "Healthcare",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Python",
+        "SQL",
+        "Statistics",
+        "Machine Learning",
+        "Communication",
+        "A/B Testing",
+        "NLP",
+        "Data Engineering",
+        "Spark"
+      ],
+      "toolsUsed": [
+        "NumPy",
+        "Scikit-learn"
+      ],
+      "beginnerSkills": [
+        "A/B Testing",
+        "Communication",
+        "Data Visualization"
+      ],
+      "overemphasizedSkills": [
+        "Azure"
+      ],
+      "beginnerMistakes": "[Demo] Making charts without a clear question or audience.",
+      "wishLearnedEarlier": "[Demo] SQL joins and window functions, much earlier.",
+      "workReality": "[Demo] A large share of time goes to finding, cleaning and validating data before any modelling happens.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "machine-learning-engineer",
+      "industry": "Product / SaaS",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "SQL",
+        "Model Deployment",
+        "Mathematics",
+        "Big Data"
+      ],
+      "toolsUsed": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Hugging Face"
+      ],
+      "beginnerSkills": [
+        "Python",
+        "Model Deployment",
+        "Machine Learning"
+      ],
+      "overemphasizedSkills": [
+        "Keras"
+      ],
+      "beginnerMistakes": "[Demo] Training models without a proper evaluation set or baseline.",
+      "wishLearnedEarlier": "[Demo] Software engineering habits: packaging, testing, versioning.",
+      "workReality": "[Demo] Much of the job is data pipelines, evaluation and serving, with comparatively little time spent inventing new models.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Share what the job really involves",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "machine-learning-engineer",
+      "industry": "Healthcare",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "SQL",
+        "MLOps",
+        "Mathematics",
+        "Statistics",
+        "NLP",
+        "Communication",
+        "Data Engineering"
+      ],
+      "toolsUsed": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn",
+        "Keras"
+      ],
+      "beginnerSkills": [
+        "Deep Learning",
+        "Machine Learning",
+        "SQL"
+      ],
+      "overemphasizedSkills": [
+        "Big Data"
+      ],
+      "beginnerMistakes": "[Demo] Ignoring deployment and monitoring until the end.",
+      "wishLearnedEarlier": "[Demo] How to evaluate model and LLM output systematically.",
+      "workReality": "[Demo] Much of the job is data pipelines, evaluation and serving, with comparatively little time spent inventing new models.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "machine-learning-engineer",
+      "industry": "IT services / consulting",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Python",
+        "Machine Learning",
+        "Deep Learning",
+        "SQL",
+        "Model Deployment",
+        "MLOps",
+        "Mathematics",
+        "Statistics",
+        "Big Data",
+        "Communication"
+      ],
+      "toolsUsed": [
+        "PyTorch",
+        "TensorFlow",
+        "Scikit-learn"
+      ],
+      "beginnerSkills": [
+        "Scikit-learn",
+        "Model Deployment",
+        "MLOps"
+      ],
+      "overemphasizedSkills": [
+        "Keras"
+      ],
+      "beginnerMistakes": "[Demo] Treating notebooks as production code.",
+      "wishLearnedEarlier": "[Demo] How to evaluate model and LLM output systematically.",
+      "workReality": "[Demo] Much of the job is data pipelines, evaluation and serving, with comparatively little time spent inventing new models.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Share what the job really involves",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "ai-engineer",
+      "industry": "Healthcare",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Python",
+        "Large Language Models",
+        "Machine Learning",
+        "Model Evaluation",
+        "NLP",
+        "Deep Learning"
+      ],
+      "toolsUsed": [
+        "Vector Databases",
+        "AWS",
+        "Azure"
+      ],
+      "beginnerSkills": [
+        "RAG",
+        "Python",
+        "NLP"
+      ],
+      "overemphasizedSkills": [
+        "Communication"
+      ],
+      "beginnerMistakes": "[Demo] Training models without a proper evaluation set or baseline.",
+      "wishLearnedEarlier": "[Demo] Software engineering habits: packaging, testing, versioning.",
+      "workReality": "[Demo] Much of the job is data pipelines, evaluation and serving, with comparatively little time spent inventing new models.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "ai-engineer",
+      "industry": "Product / SaaS",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Python",
+        "Large Language Models",
+        "Prompt Engineering",
+        "RAG",
+        "Model Evaluation",
+        "NLP"
+      ],
+      "toolsUsed": [
+        "Vector Databases",
+        "PyTorch",
+        "TensorFlow",
+        "Azure",
+        "Hugging Face"
+      ],
+      "beginnerSkills": [
+        "Prompt Engineering",
+        "PyTorch",
+        "Machine Learning"
+      ],
+      "overemphasizedSkills": [
+        "Azure"
+      ],
+      "beginnerMistakes": "[Demo] Ignoring deployment and monitoring until the end.",
+      "wishLearnedEarlier": "[Demo] Software engineering habits: packaging, testing, versioning.",
+      "workReality": "[Demo] Much of the job is data pipelines, evaluation and serving, with comparatively little time spent inventing new models.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Share what the job really involves",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "ai-engineer",
+      "industry": "Product / SaaS",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Python",
+        "Large Language Models",
+        "Machine Learning",
+        "Prompt Engineering",
+        "RAG",
+        "Model Evaluation",
+        "NLP",
+        "SQL",
+        "Generative AI"
+      ],
+      "toolsUsed": [
+        "Vector Databases",
+        "PyTorch",
+        "TensorFlow",
+        "Azure",
+        "Hugging Face",
+        "Docker"
+      ],
+      "beginnerSkills": [
+        "Python",
+        "Large Language Models",
+        "PyTorch"
+      ],
+      "overemphasizedSkills": [
+        "Communication"
+      ],
+      "beginnerMistakes": "[Demo] Treating notebooks as production code.",
+      "wishLearnedEarlier": "[Demo] Software engineering habits: packaging, testing, versioning.",
+      "workReality": "[Demo] Much of the job is data pipelines, evaluation and serving, with comparatively little time spent inventing new models.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "devops-engineer",
+      "industry": "IT services / consulting",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "CI/CD",
+        "Python",
+        "Infrastructure as Code",
+        "Monitoring & Observability"
+      ],
+      "toolsUsed": [
+        "AWS",
+        "Linux",
+        "Git",
+        "Terraform",
+        "Prometheus",
+        "GitHub Actions"
+      ],
+      "beginnerSkills": [
+        "Linux",
+        "AWS",
+        "Monitoring & Observability"
+      ],
+      "overemphasizedSkills": [
+        "Cloud Security"
+      ],
+      "beginnerMistakes": "[Demo] Learning tool names without understanding Linux and networking basics.",
+      "wishLearnedEarlier": "[Demo] Reading logs and metrics during incidents.",
+      "workReality": "[Demo] A lot of automation, on-call troubleshooting and documenting how systems fit together.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "devops-engineer",
+      "industry": "Product / SaaS",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Bash/Shell Scripting",
+        "Python",
+        "Infrastructure as Code",
+        "Monitoring & Observability",
+        "Networking"
+      ],
+      "toolsUsed": [
+        "Docker",
+        "Linux",
+        "Terraform",
+        "Jenkins",
+        "Ansible",
+        "GitHub Actions",
+        "Grafana"
+      ],
+      "beginnerSkills": [
+        "Python",
+        "Terraform",
+        "Infrastructure as Code"
+      ],
+      "overemphasizedSkills": [
+        "Azure"
+      ],
+      "beginnerMistakes": "[Demo] Clicking through cloud consoles instead of using infrastructure as code.",
+      "wishLearnedEarlier": "[Demo] Linux, networking and shell scripting fundamentals.",
+      "workReality": "[Demo] A lot of automation, on-call troubleshooting and documenting how systems fit together.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Share what the job really involves",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "devops-engineer",
+      "industry": "Healthcare",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "CI/CD",
+        "Bash/Shell Scripting",
+        "Python",
+        "Monitoring & Observability",
+        "Networking"
+      ],
+      "toolsUsed": [
+        "Docker",
+        "AWS",
+        "Linux",
+        "Git",
+        "Terraform",
+        "Jenkins",
+        "Ansible"
+      ],
+      "beginnerSkills": [
+        "CI/CD",
+        "Monitoring & Observability",
+        "Kubernetes"
+      ],
+      "overemphasizedSkills": [
+        "Azure"
+      ],
+      "beginnerMistakes": "[Demo] Ignoring cost and security until something breaks.",
+      "wishLearnedEarlier": "[Demo] Reading logs and metrics during incidents.",
+      "workReality": "[Demo] A lot of automation, on-call troubleshooting and documenting how systems fit together.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "cloud-engineer",
+      "industry": "IT services / consulting",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Networking",
+        "Infrastructure as Code",
+        "Cloud Security",
+        "Python"
+      ],
+      "toolsUsed": [
+        "AWS",
+        "Azure",
+        "Terraform",
+        "Linux",
+        "Kubernetes"
+      ],
+      "beginnerSkills": [
+        "Azure",
+        "Docker",
+        "Networking"
+      ],
+      "overemphasizedSkills": [
+        "Cost Optimization"
+      ],
+      "beginnerMistakes": "[Demo] Learning tool names without understanding Linux and networking basics.",
+      "wishLearnedEarlier": "[Demo] Linux, networking and shell scripting fundamentals.",
+      "workReality": "[Demo] A lot of automation, on-call troubleshooting and documenting how systems fit together.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Share what the job really involves",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "cloud-engineer",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Networking",
+        "Infrastructure as Code",
+        "Cloud Security",
+        "CI/CD",
+        "Cost Optimization",
+        "Bash/Shell Scripting"
+      ],
+      "toolsUsed": [
+        "Terraform",
+        "Linux",
+        "Docker",
+        "Kubernetes"
+      ],
+      "beginnerSkills": [
+        "Cloud Security",
+        "Infrastructure as Code",
+        "Kubernetes"
+      ],
+      "overemphasizedSkills": [
+        "GCP"
+      ],
+      "beginnerMistakes": "[Demo] Clicking through cloud consoles instead of using infrastructure as code.",
+      "wishLearnedEarlier": "[Demo] Linux, networking and shell scripting fundamentals.",
+      "workReality": "[Demo] A lot of automation, on-call troubleshooting and documenting how systems fit together.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "cloud-engineer",
+      "industry": "Healthcare",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Infrastructure as Code",
+        "Cloud Security",
+        "Python",
+        "Bash/Shell Scripting"
+      ],
+      "toolsUsed": [
+        "Azure",
+        "Terraform",
+        "Linux",
+        "Docker",
+        "Kubernetes",
+        "GitHub Actions"
+      ],
+      "beginnerSkills": [
+        "AWS",
+        "Azure",
+        "Infrastructure as Code"
+      ],
+      "overemphasizedSkills": [
+        "Communication"
+      ],
+      "beginnerMistakes": "[Demo] Ignoring cost and security until something breaks.",
+      "wishLearnedEarlier": "[Demo] Linux, networking and shell scripting fundamentals.",
+      "workReality": "[Demo] A lot of automation, on-call troubleshooting and documenting how systems fit together.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "cybersecurity-engineer",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Network Security",
+        "SIEM",
+        "Incident Response",
+        "Risk Management",
+        "Firewalls & VPNs",
+        "Bash/Shell Scripting",
+        "IAM",
+        "Cloud Security",
+        "Penetration Testing"
+      ],
+      "toolsUsed": [
+        "Burp Suite",
+        "Metasploit",
+        "Wireshark"
+      ],
+      "beginnerSkills": [
+        "Bash/Shell Scripting",
+        "Network Security",
+        "SIEM"
+      ],
+      "overemphasizedSkills": [
+        "NIST Framework"
+      ],
+      "beginnerMistakes": "[Demo] Focusing only on offensive tools and skipping networking fundamentals.",
+      "wishLearnedEarlier": "[Demo] Networking and log analysis before tools.",
+      "workReality": "[Demo] Monitoring alerts, triaging, writing reports and working with other teams on remediation.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "cybersecurity-engineer",
+      "industry": "IT services / consulting",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Network Security",
+        "SIEM",
+        "Incident Response",
+        "Firewalls & VPNs",
+        "Python",
+        "IAM",
+        "Cloud Security",
+        "Penetration Testing",
+        "Zero Trust",
+        "NIST Framework",
+        "DevSecOps"
+      ],
+      "toolsUsed": [
+        "Burp Suite",
+        "Nessus",
+        "Wireshark",
+        "Linux"
+      ],
+      "beginnerSkills": [
+        "Incident Response",
+        "SIEM",
+        "Penetration Testing"
+      ],
+      "overemphasizedSkills": [
+        "Nessus"
+      ],
+      "beginnerMistakes": "[Demo] Not learning to write clear incident reports.",
+      "wishLearnedEarlier": "[Demo] How risk and compliance decisions are made in a business.",
+      "workReality": "[Demo] Monitoring alerts, triaging, writing reports and working with other teams on remediation.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "cybersecurity-engineer",
+      "industry": "IT services / consulting",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Network Security",
+        "SIEM",
+        "Incident Response",
+        "Risk Management",
+        "Firewalls & VPNs",
+        "Python",
+        "Bash/Shell Scripting",
+        "IAM",
+        "Cloud Security",
+        "Penetration Testing",
+        "ISO 27001",
+        "GDPR/HIPAA Compliance",
+        "Communication"
+      ],
+      "toolsUsed": [],
+      "beginnerSkills": [
+        "Cloud Security",
+        "Firewalls & VPNs",
+        "IAM"
+      ],
+      "overemphasizedSkills": [
+        "Communication"
+      ],
+      "beginnerMistakes": "[Demo] Ignoring governance and compliance as \"boring\".",
+      "wishLearnedEarlier": "[Demo] Networking and log analysis before tools.",
+      "workReality": "[Demo] Monitoring alerts, triaging, writing reports and working with other teams on remediation.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "mobile-app-developer",
+      "industry": "Finance / Banking / FinTech",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Android SDK",
+        "iOS / Xcode",
+        "REST APIs",
+        "UI/UX Principles",
+        "Communication"
+      ],
+      "toolsUsed": [
+        "Git"
+      ],
+      "beginnerSkills": [
+        "Kotlin",
+        "REST APIs",
+        "Android SDK"
+      ],
+      "overemphasizedSkills": [
+        "Communication"
+      ],
+      "beginnerMistakes": "[Demo] Collecting frameworks without understanding fundamentals such as HTTP, data structures and debugging.",
+      "wishLearnedEarlier": "[Demo] Reading production code and writing tests earlier.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "mobile-app-developer",
+      "industry": "IT services / consulting",
+      "experienceBand": "3-5 years",
+      "skillsUsed": [
+        "Swift",
+        "Android SDK",
+        "iOS / Xcode",
+        "Flutter",
+        "REST APIs",
+        "UI/UX Principles",
+        "GraphQL",
+        "CI/CD"
+      ],
+      "toolsUsed": [
+        "Git"
+      ],
+      "beginnerSkills": [
+        "Android SDK",
+        "Git",
+        "iOS / Xcode"
+      ],
+      "overemphasizedSkills": [
+        "Performance Optimization"
+      ],
+      "beginnerMistakes": "[Demo] Not reading other people's code or writing tests before shipping.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Share what the job really involves",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "mobile-app-developer",
+      "industry": "IT services / consulting",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Swift",
+        "Android SDK",
+        "Flutter",
+        "React Native",
+        "REST APIs",
+        "UI/UX Principles",
+        "Performance Optimization"
+      ],
+      "toolsUsed": [
+        "Git",
+        "SQLite"
+      ],
+      "beginnerSkills": [
+        "UI/UX Principles",
+        "Android SDK",
+        "Git"
+      ],
+      "overemphasizedSkills": [
+        "GraphQL"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding Git workflows until the first job forces them.",
+      "wishLearnedEarlier": "[Demo] How to debug systematically instead of guessing.",
+      "workReality": "[Demo] Most of the day is reading existing code, reviewing pull requests and fixing bugs, not greenfield building.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "product-manager",
+      "industry": "Product / SaaS",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Product Roadmapping",
+        "Stakeholder Management",
+        "Prioritization Frameworks",
+        "Data Analysis",
+        "User Research",
+        "Communication",
+        "A/B Testing"
+      ],
+      "toolsUsed": [
+        "Confluence",
+        "Excel"
+      ],
+      "beginnerSkills": [
+        "Cross-functional Leadership",
+        "Communication",
+        "Prioritization Frameworks"
+      ],
+      "overemphasizedSkills": [
+        "Wireframing"
+      ],
+      "beginnerMistakes": "[Demo] Writing requirements without talking to actual users or stakeholders.",
+      "wishLearnedEarlier": "[Demo] Structured prioritization and saying no with evidence.",
+      "workReality": "[Demo] Many meetings: aligning stakeholders, clarifying scope, writing and refining documents.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "product-manager",
+      "industry": "IT services / consulting",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Stakeholder Management",
+        "Prioritization Frameworks",
+        "Data Analysis",
+        "User Research",
+        "Agile/Scrum",
+        "Communication",
+        "Cross-functional Leadership",
+        "SQL",
+        "Market Research",
+        "A/B Testing",
+        "Strategic Thinking",
+        "AI Literacy"
+      ],
+      "toolsUsed": [
+        "Jira"
+      ],
+      "beginnerSkills": [
+        "User Research",
+        "Prioritization Frameworks",
+        "Data Analysis"
+      ],
+      "overemphasizedSkills": [
+        "Market Research"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding data — not being able to pull basic numbers with SQL or Excel.",
+      "wishLearnedEarlier": "[Demo] Basic SQL and spreadsheet analysis.",
+      "workReality": "[Demo] Many meetings: aligning stakeholders, clarifying scope, writing and refining documents.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "product-manager",
+      "industry": "E-commerce / Retail",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Product Roadmapping",
+        "Prioritization Frameworks",
+        "Data Analysis",
+        "User Research",
+        "Agile/Scrum",
+        "Communication",
+        "Cross-functional Leadership",
+        "Market Research",
+        "Wireframing",
+        "AI Literacy"
+      ],
+      "toolsUsed": [
+        "Jira"
+      ],
+      "beginnerSkills": [
+        "User Research",
+        "Agile/Scrum",
+        "Prioritization Frameworks"
+      ],
+      "overemphasizedSkills": [
+        "A/B Testing"
+      ],
+      "beginnerMistakes": "[Demo] Trying to say yes to every request instead of prioritizing.",
+      "wishLearnedEarlier": "[Demo] Basic SQL and spreadsheet analysis.",
+      "workReality": "[Demo] Many meetings: aligning stakeholders, clarifying scope, writing and refining documents.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "ui-ux-designer",
+      "industry": "Finance / Banking / FinTech",
+      "experienceBand": "5-10 years",
+      "skillsUsed": [
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Design Systems",
+        "Information Architecture",
+        "Communication",
+        "Typography"
+      ],
+      "toolsUsed": [
+        "Figma",
+        "Adobe XD"
+      ],
+      "beginnerSkills": [
+        "Wireframing",
+        "Prototyping",
+        "Design Systems"
+      ],
+      "overemphasizedSkills": [
+        "Typography"
+      ],
+      "beginnerMistakes": "[Demo] Polishing visuals before validating the problem with users.",
+      "wishLearnedEarlier": "[Demo] Enough HTML/CSS to understand engineering constraints.",
+      "workReality": "[Demo] Research, iteration and many review conversations; high-fidelity screens are a small part of the work.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "ui-ux-designer",
+      "industry": "Finance / Banking / FinTech",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Usability Testing",
+        "Interaction Design",
+        "Information Architecture",
+        "Communication"
+      ],
+      "toolsUsed": [
+        "Figma",
+        "Adobe XD"
+      ],
+      "beginnerSkills": [
+        "Figma",
+        "Wireframing",
+        "Prototyping"
+      ],
+      "overemphasizedSkills": [
+        "HTML/CSS"
+      ],
+      "beginnerMistakes": "[Demo] Not building or using a design system.",
+      "wishLearnedEarlier": "[Demo] Usability testing with real users early and often.",
+      "workReality": "[Demo] Research, iteration and many review conversations; high-fidelity screens are a small part of the work.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Help students prepare better",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "ui-ux-designer",
+      "industry": "Healthcare",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Wireframing",
+        "Prototyping",
+        "User Research",
+        "Usability Testing",
+        "Information Architecture",
+        "Communication",
+        "Design Thinking"
+      ],
+      "toolsUsed": [
+        "Figma",
+        "Adobe XD"
+      ],
+      "beginnerSkills": [
+        "Figma",
+        "Wireframing",
+        "Prototyping"
+      ],
+      "overemphasizedSkills": [
+        "HTML/CSS"
+      ],
+      "beginnerMistakes": "[Demo] Presenting designs without explaining the reasoning.",
+      "wishLearnedEarlier": "[Demo] Usability testing with real users early and often.",
+      "workReality": "[Demo] Research, iteration and many review conversations; high-fidelity screens are a small part of the work.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Help students prepare better"
+      ]
+    },
+    {
+      "role": "business-analyst",
+      "industry": "Finance / Banking / FinTech",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Requirements Gathering",
+        "SQL",
+        "User Stories",
+        "Process Modeling",
+        "Data Analysis",
+        "Communication",
+        "Business Requirements Documents",
+        "BPMN",
+        "Critical Thinking"
+      ],
+      "toolsUsed": [
+        "Excel",
+        "Confluence"
+      ],
+      "beginnerSkills": [
+        "Excel",
+        "SQL",
+        "Stakeholder Management"
+      ],
+      "overemphasizedSkills": [
+        "Agile/Scrum"
+      ],
+      "beginnerMistakes": "[Demo] Writing requirements without talking to actual users or stakeholders.",
+      "wishLearnedEarlier": "[Demo] Basic SQL and spreadsheet analysis.",
+      "workReality": "[Demo] Many meetings: aligning stakeholders, clarifying scope, writing and refining documents.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    },
+    {
+      "role": "business-analyst",
+      "industry": "Healthcare",
+      "experienceBand": "1-3 years",
+      "skillsUsed": [
+        "Requirements Gathering",
+        "Stakeholder Management",
+        "User Stories",
+        "Data Analysis",
+        "Business Requirements Documents",
+        "BPMN",
+        "Change Management"
+      ],
+      "toolsUsed": [
+        "Excel",
+        "Confluence"
+      ],
+      "beginnerSkills": [
+        "Communication",
+        "Process Modeling",
+        "User Stories"
+      ],
+      "overemphasizedSkills": [
+        "Power BI"
+      ],
+      "beginnerMistakes": "[Demo] Avoiding data — not being able to pull basic numbers with SQL or Excel.",
+      "wishLearnedEarlier": "[Demo] Structured prioritization and saying no with evidence.",
+      "workReality": "[Demo] Many meetings: aligning stakeholders, clarifying scope, writing and refining documents.",
+      "willingToContribute": "Maybe occasionally",
+      "motivation": [
+        "Share what the job really involves",
+        "Give back to my college / community"
+      ]
+    },
+    {
+      "role": "business-analyst",
+      "industry": "Product / SaaS",
+      "experienceBand": "10+ years",
+      "skillsUsed": [
+        "Stakeholder Management",
+        "SQL",
+        "User Stories",
+        "Process Modeling",
+        "Communication",
+        "Business Requirements Documents",
+        "Agile/Scrum",
+        "Python"
+      ],
+      "toolsUsed": [
+        "Excel",
+        "Tableau",
+        "Jira"
+      ],
+      "beginnerSkills": [
+        "Stakeholder Management",
+        "User Stories",
+        "Process Modeling"
+      ],
+      "overemphasizedSkills": [
+        "Python"
+      ],
+      "beginnerMistakes": "[Demo] Trying to say yes to every request instead of prioritizing.",
+      "wishLearnedEarlier": "[Demo] Basic SQL and spreadsheet analysis.",
+      "workReality": "[Demo] Many meetings: aligning stakeholders, clarifying scope, writing and refining documents.",
+      "willingToContribute": "Yes, happy to",
+      "motivation": [
+        "Give back to my college / community",
+        "Share what the job really involves"
+      ]
+    }
+  ]
+}
