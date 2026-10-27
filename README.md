@@ -27,7 +27,7 @@ SkillLens is a working full-stack MVP built for a CPI (innovation project) demon
 17. [Limitations](#17-limitations)
 18. [Future scope](#18-future-scope)
 
-Related documents: [RESEARCH.md](RESEARCH.md) · [TEAM.md](TEAM.md) · [TESTING.md](TESTING.md)
+Related documents: [RESEARCH.md](RESEARCH.md) · [TEAM.md](TEAM.md) · [TESTING.md](TESTING.md) · [DEPLOYMENT.md](DEPLOYMENT.md) (Vercel + Neon)
 
 ---
 
@@ -82,6 +82,7 @@ Other commands:
 npm run test           # server + client tests
 npm run test:analysis  # Python tests (pip install -r analysis/requirements.txt first)
 npm run db:reset       # drop, re-create and re-seed the database (development only)
+npm run db:seed        # apply schema + seed to the configured database (idempotent)
 npm run build          # production build of the React app (client/dist)
 npm run demo:generate  # regenerate the synthetic demo dataset
 ```

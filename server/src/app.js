@@ -18,11 +18,21 @@ import { DEFAULT_WEIGHTS, latestRun } from './services/scoring.js';
 export function createApp() {
   const app = express();
   app.disable('x-powered-by');
+  // Behind a hosting proxy (Vercel, Render…) the client IP arrives in X-Forwarded-For; rate limits need it.
+  if (process.env.VERCEL || process.env.TRUST_PROXY) app.set('trust proxy', 1);
   app.use(helmet());
-  app.use(cors({
-    origin: (origin, cb) => cb(null, !origin || config.corsOrigins.includes(origin)),
+  // Allow the configured origins, plus the site's own origin (frontend and API served from one domain).
+  app.use((req, res, next) => cors({
+    origin: (origin, cb) => {
+      if (!origin || config.corsOrigins.includes(origin)) return cb(null, true);
+      try {
+        return cb(null, new URL(origin).host === (req.get('x-forwarded-host') || req.get('host')));
+      } catch {
+        return cb(null, false);
+      }
+    },
     credentials: false,
-  }));
+  })(req, res, next));
   // Imports send file contents as JSON, so allow larger bodies (validated per route).
   app.use(express.json({ limit: '8mb' }));
 

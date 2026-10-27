@@ -2,6 +2,7 @@
 process.env.NODE_ENV = 'test';
 process.env.PGLITE_DATA_DIR = 'memory';
 process.env.DATABASE_URL = '';
+process.env.POSTGRES_URL = '';
 process.env.JWT_SECRET = 'test-secret-test-secret-test-secret-0123456789';
 process.env.ADMIN_EMAIL = 'admin@skilllens.test';
 process.env.ADMIN_PASSWORD = 'admin-password-for-tests';

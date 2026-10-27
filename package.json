@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "type": "module",
-  "description": "SkillLens — Bridging the gap between education and industry skills (CPI project MVP)",
-  "workspaces": ["server", "client"],
+  "description": "SkillLens \u00e2\u20ac\u201d Bridging the gap between education and industry skills (CPI project MVP)",
+  "workspaces": [
+    "server",
+    "client"
+  ],
   "scripts": {
     "setup": "node scripts/setup.js",
     "dev": "concurrently -n server,client -c blue,green \"npm run dev -w server\" \"npm run dev -w client\"",
@@ -15,7 +18,8 @@
     "test:client": "npm run test -w client",
     "test:analysis": "cd analysis && python -m pytest -q",
     "db:reset": "npm run db:reset -w server",
-    "demo:generate": "node scripts/generate-demo-data.js"
+    "demo:generate": "node scripts/generate-demo-data.js",
+    "db:seed": "npm run db:seed -w server"
   },
   "devDependencies": {
     "concurrently": "^9.1.2"

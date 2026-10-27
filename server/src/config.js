@@ -33,7 +33,8 @@ export const config = {
   isTest,
   isProduction,
   port: Number(env.PORT || 4000),
-  databaseUrl: env.DATABASE_URL || '',
+  // POSTGRES_URL is the name some hosting integrations (e.g. Vercel + Neon) use.
+  databaseUrl: env.DATABASE_URL || env.POSTGRES_URL || '',
   // 'memory' keeps the embedded database in RAM (used by tests).
   pgliteDataDir: env.PGLITE_DATA_DIR || (isTest ? 'memory' : path.join(PROJECT_ROOT, 'server', '.data', 'pglite')),
   jwtSecret,

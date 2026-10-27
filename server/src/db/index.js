@@ -15,7 +15,8 @@ let driver = null;
 
 async function createPgDriver(connectionString) {
   const { default: pg } = await import('pg');
-  const pool = new pg.Pool({ connectionString, max: 10 });
+  // Serverless platforms run many small instances, so each keeps only a few connections.
+  const pool = new pg.Pool({ connectionString, max: Number(process.env.PG_POOL_MAX || (process.env.VERCEL ? 3 : 10)) });
   return {
     name: 'postgres',
     query: async (text, params = []) => ({ rows: (await pool.query(text, params)).rows }),

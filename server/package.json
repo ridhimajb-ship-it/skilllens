@@ -8,7 +8,8 @@
     "dev": "node --watch src/index.js",
     "start": "node src/index.js",
     "test": "node --test --test-concurrency=1 test/unit.test.js test/api.test.js",
-    "db:reset": "node src/db/reset.js"
+    "db:reset": "node src/db/reset.js",
+    "db:seed": "node src/db/seed-cli.js"
   },
   "dependencies": {
     "@electric-sql/pglite": "^0.5.12",
