@@ -50,8 +50,6 @@ export default function Layout() {
         <div className="container footer-inner">
           <div style={{ maxWidth: 420 }}>
             <div className="brand" style={{ fontSize: '1rem', marginBottom: 6 }}><span className="brand-mark"><ScanSearch size={15} /></span> SkillLens</div>
-            <p className="small">A CPI research prototype. SkillLens <em>estimates</em> role-specific skill priorities from available job-posting and
-              professional data. It does not guarantee employment and does not replace mentors.</p>
           </div>
           <div style={{ minWidth: 280 }}>
             <div className="label" style={{ marginBottom: 8 }}>Research status</div>
