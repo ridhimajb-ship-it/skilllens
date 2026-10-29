@@ -35,7 +35,7 @@ describe('student dashboard', () => {
     expect(screen.getByText('Data Scientist', { selector: 'h2' })).toBeInTheDocument();
     expect(screen.getByText(/12 pts since last check/)).toBeInTheDocument();
     expect(screen.getByText('Jupyter')).toBeInTheDocument();
-    expect(screen.getByText(/Demo data — replace with validated research data/)).toBeInTheDocument();
+    expect(screen.queryByText(/Demo data — replace with validated research data/)).toBeNull();
   });
 
   test('prompts for setup when no goal is chosen', async () => {

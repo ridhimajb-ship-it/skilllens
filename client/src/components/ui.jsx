@@ -46,25 +46,6 @@ export function DataBadge({ origin, label }) {
   return <span className={`badge ${cls}`} title={`Data origin: ${text}`}>{label || text}</span>;
 }
 
-export function DemoBanner({ dataBasis, compact = false }) {
-  if (!dataBasis) return null;
-  if (dataBasis.basis === 'hypothesis') {
-    return (
-      <Notice kind="warn">
-        <strong>Initial hypothesis — not yet validated.</strong> No job-posting or professional data has been analysed for this role yet,
-        so skills are shown from the team&apos;s starting taxonomy without scores.
-      </Notice>
-    );
-  }
-  if (!dataBasis.containsDemo && !dataBasis.runIncludesDemo) return null;
-  return (
-    <Notice kind="demo">
-      <strong>Demo data — replace with validated research data.</strong>
-      {!compact && ' These rankings are computed from synthetic postings and responses generated from the initial hypothesis. They demonstrate the method; they are not market findings.'}
-    </Notice>
-  );
-}
-
 const CONF = { high: 'High', medium: 'Medium', low: 'Low', none: 'None' };
 export function DataBasisNote({ dataBasis }) {
   if (!dataBasis) return null;

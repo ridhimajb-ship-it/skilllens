@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react';
 import { RefreshCw, PlayCircle } from 'lucide-react';
 import { api } from '../../api/client.js';
 import { pct, useApi } from '../../utils/useApi.js';
-import { DataBasisNote, DemoBanner, Empty, ErrorState, Loading, Notice, Tier } from '../../components/ui.jsx';
+import { DataBasisNote, Empty, ErrorState, Loading, Notice, Tier } from '../../components/ui.jsx';
 import { IndustryVsProfessionalChart, SkillRankingChart } from '../../components/charts.jsx';
 import AdminNav from './AdminNav.jsx';
 
@@ -71,7 +71,6 @@ function RoleDrilldown({ roles }) {
       {data && (
         <>
           <DataBasisNote dataBasis={data.dataBasis} />
-          <div className="mt"><DemoBanner dataBasis={data.dataBasis} compact /></div>
           <div className="grid grid-2 mt">
             <div>{data.dataBasis.basis === 'data' ? <SkillRankingChart data={data.skills.filter((s) => s.score > 0).slice(0, 12).map((s) => ({ name: s.name, score: s.score }))} /> : <Empty title="No data for this role in the current run" />}</div>
             <div>{comparison.length ? <IndustryVsProfessionalChart data={comparison} /> : <Empty title="Needs both postings and professional responses" />}</div>
@@ -107,7 +106,6 @@ export default function AdminAnalytics() {
     <div className="container page">
       <div className="page-header"><div><div className="eyebrow">Admin / research team</div><h1>Skill analytics</h1><p>Most common skills, role comparison and the ranking engine.</p></div></div>
       <AdminNav />
-      {data.researchStatus.usingDemoData && <Notice kind="demo" className="mb"><strong>Demo data — replace with validated research data.</strong> Figures below include synthetic records.</Notice>}
 
       <AnalysisRunner onDone={reload} />
 

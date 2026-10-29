@@ -197,10 +197,24 @@ export async function seed() {
   } else if (!config.isTest) {
     console.warn('[db] ADMIN_EMAIL / ADMIN_PASSWORD not set — no admin account created. Run `npm run setup`.');
   }
-  if (config.seedDemoData) await seedDemoData();
+  const importedDemo = config.seedDemoData ? await seedDemoData() : false;
   await seedDemoStudent();
-  if (!(await latestRun())) {
+  if (importedDemo || !(await latestRun()) || (await latestRunIsStale())) {
     await runAnalysis({ includeDemo: true });
-    log('initial analysis run complete');
+    log('analysis run complete');
   }
+}
+
+/**
+ * True when the latest run used no data but data now exists. This happens when two server
+ * instances start together: one runs the analysis while the other is still importing demo data.
+ */
+async function latestRunIsStale() {
+  const run = await latestRun();
+  if (!run || run.postings_used > 0 || run.responses_used > 0) return false;
+  const { rows: [counts] } = await db.query(
+    `SELECT (SELECT COUNT(*) FROM job_postings)::int AS postings,
+            (SELECT COUNT(*) FROM professional_responses)::int AS responses`,
+  );
+  return counts.postings > 0 || counts.responses > 0;
 }

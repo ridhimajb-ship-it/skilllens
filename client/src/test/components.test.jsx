@@ -3,7 +3,7 @@ import { describe, expect, test, vi } from 'vitest';
 import { render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { MemoryRouter } from 'react-router-dom';
-import { DataBadge, DemoBanner, ScoreBars, Tier, Priority } from '../components/ui.jsx';
+import { DataBadge, ScoreBars, Tier, Priority } from '../components/ui.jsx';
 import SkillPicker from '../components/SkillPicker.jsx';
 import { RoleCard } from '../pages/RoleExplorer.jsx';
 import { GapReport } from '../pages/GapAnalysis.jsx';
@@ -15,15 +15,6 @@ describe('provenance labels', () => {
     expect(screen.getByText('Demo data')).toBeInTheDocument();
     expect(screen.getByText('Real data')).toBeInTheDocument();
     expect(screen.getByText('Illustrative')).toBeInTheDocument();
-  });
-
-  test('DemoBanner shows the required demo notice only when demo data is involved', () => {
-    const { rerender, container } = render(<DemoBanner dataBasis={{ basis: 'data', containsDemo: true }} />);
-    expect(screen.getByText(/Demo data — replace with validated research data/)).toBeInTheDocument();
-    rerender(<DemoBanner dataBasis={{ basis: 'data', containsDemo: false, runIncludesDemo: false }} />);
-    expect(container).toBeEmptyDOMElement();
-    rerender(<DemoBanner dataBasis={{ basis: 'hypothesis' }} />);
-    expect(screen.getByText(/Initial hypothesis — not yet validated/)).toBeInTheDocument();
   });
 
   test('score bars print every value as text', () => {
@@ -98,6 +89,6 @@ describe('gap report', () => {
     const table = screen.getByLabelText('Skill gap table');
     expect(within(table).getAllByRole('row')).toHaveLength(4);
     expect(screen.getByText(/Also in your profile/).parentElement).toHaveTextContent('Excel');
-    expect(screen.getByText(/Demo data — replace with validated research data/)).toBeInTheDocument();
+    expect(screen.queryByText(/Demo data — replace with validated research data/)).toBeNull();
   });
 });

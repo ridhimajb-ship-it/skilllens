@@ -3,7 +3,7 @@ import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Briefcase, Users, AlertTriangle, Lightbulb, CheckCircle2, HelpCircle, Sparkles, MinusCircle } from 'lucide-react';
 import { api } from '../api/client.js';
 import { pct, useApi } from '../utils/useApi.js';
-import { DataBadge, DataBasisNote, DemoBanner, Empty, ErrorState, Loading, ScoreBars, StatCard, Tier } from '../components/ui.jsx';
+import { DataBadge, DataBasisNote, Empty, ErrorState, Loading, ScoreBars, StatCard, Tier } from '../components/ui.jsx';
 import { IndustryVsProfessionalChart, SkillRankingChart } from '../components/charts.jsx';
 
 function Quotes({ items, empty }) {
@@ -47,7 +47,6 @@ export default function RoleDetail() {
         </div>
         <Link to={`/assess?role=${role.slug}`} className="btn btn-primary btn-lg">Compare My Skills <ArrowRight size={18} /></Link>
       </div>
-      <div className="mb"><DemoBanner dataBasis={dataBasis} /></div>
 
       <div className="grid grid-4 mb">
         <StatCard icon={Briefcase} label="Job postings analysed" value={dataBasis.postingTotal} sub={dataBasis.origins.postings.demo ? `${dataBasis.origins.postings.demo} demo` : 'no demo records'} />

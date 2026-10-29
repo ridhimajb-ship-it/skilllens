@@ -3,7 +3,7 @@ import { Target, Pencil, Wrench, Quote, ArrowRight } from 'lucide-react';
 import { api } from '../api/client.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { LEVELS, pct, useApi } from '../utils/useApi.js';
-import { DataBadge, DataBasisNote, DemoBanner, Empty, ErrorState, Loading, ProgressRing, ScoreBars } from '../components/ui.jsx';
+import { DataBadge, DataBasisNote, Empty, ErrorState, Loading, ProgressRing, ScoreBars } from '../components/ui.jsx';
 import { GapChart, IndustryVsYouRadar } from '../components/charts.jsx';
 import { LearningOrder, radarData } from '../components/GapViews.jsx';
 
@@ -45,7 +45,6 @@ export default function StudentDashboard() {
           <Link to={`/gap?role=${gap.role.slug}`} className="btn btn-primary">Full gap analysis</Link>
         </div>
       </div>
-      <div className="mb"><DemoBanner dataBasis={dataBasis} compact /></div>
 
       <div className="grid grid-3 mb">
         <div className="card">

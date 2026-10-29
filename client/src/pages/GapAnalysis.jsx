@@ -3,7 +3,7 @@ import { ArrowLeft, Pencil, Trophy, TrendingUp, Flag } from 'lucide-react';
 import { api } from '../api/client.js';
 import { useAuth } from '../context/AuthContext.jsx';
 import { useApi } from '../utils/useApi.js';
-import { DataBasisNote, DemoBanner, Empty, ErrorState, Loading, Notice, Priority, ProgressRing } from '../components/ui.jsx';
+import { DataBasisNote, Empty, ErrorState, Loading, Notice, Priority, ProgressRing } from '../components/ui.jsx';
 import { GapChart, IndustryVsYouRadar } from '../components/charts.jsx';
 import { GapTable, LearningOrder, MethodNote, radarData } from '../components/GapViews.jsx';
 import { GUEST_KEY } from './Assessment.jsx';
@@ -16,10 +16,8 @@ function loadGuest(role) {
 }
 
 export function GapReport({ result, compact = false }) {
-  const dataBasis = { ...result.dataBasis, basis: result.basis, containsDemo: result.dataBasis.runIncludesDemo };
   return (
     <div className="stack">
-      <DemoBanner dataBasis={dataBasis} compact={compact} />
       <div className="grid grid-3">
         <div className="card row" style={{ gap: 18, flexWrap: 'nowrap' }}>
           <ProgressRing value={result.readiness} />

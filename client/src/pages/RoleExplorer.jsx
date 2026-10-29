@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Search, Wrench, Layers } from 'lucide-react';
 import { api } from '../api/client.js';
 import { useApi } from '../utils/useApi.js';
-import { DataBadge, ErrorState, Loading, Notice } from '../components/ui.jsx';
+import { DataBadge, ErrorState, Loading } from '../components/ui.jsx';
 
 const CONF_LABEL = { high: 'High confidence', medium: 'Medium confidence', low: 'Low confidence', none: 'No data yet' };
 
@@ -49,7 +49,6 @@ export default function RoleExplorer() {
   const categories = useMemo(() => ['All', ...new Set((data?.roles || []).map((r) => r.category))], [data]);
   const roles = (data?.roles || []).filter((r) => (category === 'All' || r.category === category)
     && (!q || `${r.name} ${r.topSkills.join(' ')} ${r.topTools.join(' ')}`.toLowerCase().includes(q.toLowerCase())));
-  const anyDemo = (data?.roles || []).some((r) => r.demoPostingCount > 0);
 
   return (
     <div className="container page">
@@ -60,7 +59,6 @@ export default function RoleExplorer() {
           <p>Pick a role to see which skills appear most in job postings and in professionals&apos; day-to-day work.</p>
         </div>
       </div>
-      {anyDemo && <Notice kind="demo" className="mb"><strong>Demo data — replace with validated research data.</strong> Skill lists below are ranked from synthetic demo postings until real data is imported.</Notice>}
       <div className="row mb" style={{ gap: 12 }}>
         <div style={{ position: 'relative', flex: '1 1 260px', maxWidth: 380 }}>
           <Search size={16} style={{ position: 'absolute', left: 12, top: 12, color: 'var(--text-3)' }} />
